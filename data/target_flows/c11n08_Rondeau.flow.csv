@@ -1,0 +1,15 @@
+flow_mode,source_file,software_version,mc_start,mc_end,atomic_segments
+atomic,c11n08_Rondeau.measures.tsv,timetoalign v0.1.0,1,10,A
+atomic,c11n08_Rondeau.measures.tsv,timetoalign v0.1.0,10,19,B
+atomic,c11n08_Rondeau.measures.tsv,timetoalign v0.1.0,19,28,C
+atomic,c11n08_Rondeau.measures.tsv,timetoalign v0.1.0,28,61,D
+default,c11n08_Rondeau.measures.tsv,timetoalign v0.1.0,1,10,A
+default,c11n08_Rondeau.measures.tsv,timetoalign v0.1.0,1,19,A;B
+default,c11n08_Rondeau.measures.tsv,timetoalign v0.1.0,10,19,B
+default,c11n08_Rondeau.measures.tsv,timetoalign v0.1.0,1,10,A
+default,c11n08_Rondeau.measures.tsv,timetoalign v0.1.0,19,28,C
+default,c11n08_Rondeau.measures.tsv,timetoalign v0.1.0,19,28,C
+default,c11n08_Rondeau.measures.tsv,timetoalign v0.1.0,1,10,A
+default,c11n08_Rondeau.measures.tsv,timetoalign v0.1.0,28,61,D
+default,c11n08_Rondeau.measures.tsv,timetoalign v0.1.0,28,61,D
+single,c11n08_Rondeau.measures.tsv,timetoalign v0.1.0,1,61,A;B;C;D

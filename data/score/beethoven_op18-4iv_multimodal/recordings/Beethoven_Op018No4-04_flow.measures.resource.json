@@ -1,0 +1,29 @@
+{
+  "name": "beethoven_op018no4-04_flow.measures",
+  "type": "table",
+  "path": "Beethoven_Op018No4-04_flow.measures.tsv",
+  "scheme": "file",
+  "format": "tsv",
+  "mediatype": "text/tsv",
+  "encoding": "utf-8",
+  "dialect": {
+    "csv": {
+      "delimiter": "\t"
+    }
+  },
+  "schema": "https://raw.githubusercontent.com/DCMLab/frictionless_schemas/main/measures/fl1WmuapX5k3BQ.schema.yaml",
+  "creator": {
+    "@context": "https://schema.org/",
+    "@type": "SoftwareApplication",
+    "@id": "https://pypi.org/project/ms3/",
+    "name": "ms3",
+    "description": "A parser for MuseScore 3 files and data factory for annotated music corpora.",
+    "author": {
+      "name": "Johannes Hentschel",
+      "@id": "https://orcid.org/0000-0002-1986-9545"
+    },
+    "softwareVersion": "2.6.0"
+  },
+  "git_revision": "603bf6aa33b84927da9b52ce5bc1d8e39889ebb7",
+  "git_tag": "603bf6a"
+}

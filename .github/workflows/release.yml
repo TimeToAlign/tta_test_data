@@ -1,0 +1,60 @@
+name: Publish test data
+
+# Triggers when you push a tag of the form `testdata-vN`.
+# Creates a GitHub release with one .tar.gz asset per top-level subdirectory
+# of `data/`, ready to be consumed by `timetoalign.testdata` via pooch.
+
+on:
+  push:
+    tags:
+      - "testdata-v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build tarballs
+        id: build
+        run: |
+          python scripts/package.py | tee build.log
+          echo
+          echo "=== REGISTRY block (copy into timetoalign/testdata/__init__.py) ==="
+          awk '/^REGISTRY = \{/,/^\}/' build.log
+
+      - name: Capture REGISTRY block as release-notes body
+        run: |
+          {
+            echo "Automated release built from \`${GITHUB_REF_NAME}\`."
+            echo
+            echo "## How to consume"
+            echo
+            echo "Update \`timetoalign/testdata/__init__.py\`:"
+            echo
+            echo "\`\`\`python"
+            echo "RELEASE_TAG = \"${GITHUB_REF_NAME}\""
+            echo "\`\`\`"
+            echo
+            echo "Then paste the registry below into the same file:"
+            echo
+            echo "\`\`\`python"
+            awk '/^REGISTRY = \{/,/^\}/' build.log
+            echo "\`\`\`"
+          } > release_notes.md
+
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*.tar.gz
+          body_path: release_notes.md
+          fail_on_unmatched_files: true

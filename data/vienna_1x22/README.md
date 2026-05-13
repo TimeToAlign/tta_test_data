@@ -1,0 +1,513 @@
+# Vienna 4×22 Dataset: Chopin Op. 10 No. 3
+
+## Overview
+
+This directory contains the **Vienna 4×22 Subset** for Chopin's Étude in E major, Op. 10 No. 3.
+The dataset pairs a single score (MusicXML) with 22 human piano performances (MIDI + `.match`
+alignment files). It is the canonical specimen for testing the `MatchfileLoader` and the
+"many performances against one score" alignment workflow.
+
+The dataset originates from the **Vienna International Piano Competition (VIPC)** dataset
+published by Sebastian Flossmann, Maarten Grachten, and Gerhard Widmer. The `.match` file
+format and tooling were developed alongside the [partitura](https://github.com/CPJKU/partitura)
+library by the CP-JKU Linz group.
+
+---
+
+## File Inventory
+
+| File pattern | Count | Description |
+|---|---|---|
+| `Chopin_op10_no3.musicxml` | 1 | Score in MusicXML format |
+| `Chopin_op10_no3.pdf` / `.png` | 1+1 | Rendered score image |
+| `Chopin_op10_no3_p01.match` … `_p22.match` | 22 | Alignment files (Vienna Match v1.0.0) |
+| `Chopin_op10_no3_p01.mid` … `_p22.mid` | 22 | Performance MIDI files |
+| `ms3/` | — | DCML ground-truth TSV, MeasureMap JSON, MuseScore source |
+
+### ms3/ sub-directory
+
+| File | Description |
+|---|---|
+| `chopin_op10_no3.notes.tsv` | Note-level annotation (ms3 DCML schema) |
+| `chopin_op10_no3.measures.tsv` | Measure-level annotation with flow control |
+| `chopin_op10_no3.chords.tsv` | Chord-level annotation |
+| `chopin_op10_no3.mm.json` | MeasureMap JSON |
+| `chopin_op10_no3.mscx` | MuseScore 3 source |
+| `metadata.tsv` | Dataset metadata |
+
+---
+
+## Match File Format (Vienna Match v1.0.0)
+
+Each `.match` file encodes the alignment between one performance and the shared score.
+It is a **Prolog-style structured text format** with three record types:
+
+### Header Records
+
+```prolog
+info(matchFileVersion,1.0.0).
+info(piece,Chopin_op10_no3).
+info(scoreFileName,Chopin_op10_no3.musicxml).
+info(midiFileName,Chopin_op10_no3_p01.mid).
+info(composer,Frèdéryk Chopin).
+info(performer,Pianist 01).
+info(midiClockUnits,480).          % ticks per quarter note
+info(midiClockRate,500000).        % microseconds per quarter (default 120 BPM)
+scoreprop(keySignature,E,0:1,0,-0.5000).
+scoreprop(timeSignature,2/4,0:1,0,-0.5000).
+```
+
+### Alignment Records: `snote(...)-note(...)`
+
+Each matched note pair:
+
+```
+snote(n1,[B,n],3,0:1,0,1/8,-0.5000,0.0000,[v1,staff1])
+      └─ score note id
+              └─ [pitch class, accidental]  (n=natural, #=sharp, b=flat)
+                       └─ octave
+                                └─ measure:beat  (e.g. 0:1 = anacrusis)
+                                     └─ beat offset (fraction)
+                                          └─ nominal duration (fraction of a quarter)
+                                                  └─ score onset (quarter beats, global)
+                                                          └─ score offset (quarter beats, global)
+                                                                  └─ [voice, staff, articulations]
+  -note(n0,59,0,261,44,0,0)
+         └─ performance note id
+              └─ MIDI pitch
+                    └─ MIDI onset (ticks from start)
+                         └─ MIDI offset (ticks)
+                              └─ velocity (0–127)
+                                   └─ channel
+                                       └─ track
+```
+
+### Deletion Records: `snote(...)-deletion`
+
+A score note with **no matching performance note** (pianist omitted the note):
+
+```
+snote(n356,[A,#],4,16:2,1/16,1/16,31.2500,31.5000,[v2,staff1])-deletion.
+```
+
+These are **NOMATCH sentinels** in TTA terminology. They appear when the alignment
+algorithm explicitly asserts that a score event has no performance counterpart.
+
+### Pedal/Control Records
+
+Lines beginning with `sustain(tick,value)` and `soft(tick,value)` encode continuous pedal
+data. These are NOT note alignments and must be filtered out during parsing.
+
+```
+sustain(80529,28).
+soft(82986,0).
+```
+
+### Grace Note Encoding
+
+Grace notes are indicated by a duration of `0` in the snote:
+
+```
+snote(n140,[A,#],4,7:2,1/8,0,13.5000,13.5000,[v1,staff1,grace])-note(n140,70,26367,26619,63,0,0).
+```
+
+The `duration=0` corresponds to `gracenote` tag in the NoteEventData schema. Score
+onset and offset are identical, giving a zero-duration interval.
+
+---
+
+## Exact Counts (Gold Standard)
+
+These counts are authoritative. All tests MUST use exact values per the Zero Tolerance
+Validation Policy.
+
+### Score (from MusicXML via PartituraLoader / from ms3 TSV)
+
+| Metric | Value | Source |
+|---|---|---|
+| Notes (non-rest, non-grace) | 498 | `test_loaders.py::test_chopin_note_count` |
+| Rests | 0 | confirmed via PartituraLoader |
+| Grace notes | 12 | score notes with duration=0 |
+| Measures | 22 | confirmed via PartituraLoader |
+| Quarter-beat duration (total) | varies | see notes below |
+| Divisions per quarter (XML) | 480 | from `midiClockUnits` |
+
+> **Note:** The 498 note count is cross-validated across TSVLoader, PartituraLoader,
+> and Music21Loader in `tests/loader/score/test_cross_validation.py`.
+
+### Per-Match File (Performance)
+
+Each `.match` file encodes alignment of the same 454 score notes (snotes). The remaining
+44 score notes (the 12 grace notes + 32 additional notes not in this subset) are
+present but behave consistently. Each file contains:
+
+| Metric | Value |
+|---|---|
+| Total snote records | 454 per file |
+| Deletion records (p01) | 3 |
+| Pedal (sustain/soft) records (p01) | 3,422 |
+| Total lines (p01) | 3,886 |
+
+> **Exact per-file snote counts** (all 22 files have 454 snote records — identical score
+> coverage). Any future test asserting this count MUST use `454`, not an approximation.
+
+### Per-Performer Deletion Counts (Gold Standard)
+
+Deletion counts vary by performer. These counts were empirically verified by
+parsing the raw `.match` files (Feb 2026). Tests MUST use exact values.
+
+| Performer | Deletions | Matched | Total snotes |
+|---|---|---|---|
+| p01 | 3 | 451 | 454 |
+| p02 | 6 | 448 | 454 |
+| p03 | 2 | 452 | 454 |
+| p04 | 4 | 450 | 454 |
+| p05 | 4 | 450 | 454 |
+| p06 | 3 | 451 | 454 |
+| p07 | 3 | 451 | 454 |
+| p08 | 20 | 434 | 454 |
+| p09 | 18 | 436 | 454 |
+| p10 | 7 | 447 | 454 |
+| p11 | 4 | 450 | 454 |
+| p12 | 1 | 453 | 454 |
+| p13 | 2 | 452 | 454 |
+| p14 | 4 | 450 | 454 |
+| p15 | 5 | 449 | 454 |
+| p16 | 6 | 448 | 454 |
+| p17 | 3 | 451 | 454 |
+| p18 | 4 | 450 | 454 |
+| p19 | 2 | 452 | 454 |
+| p20 | 7 | 447 | 454 |
+| p21 | 3 | 451 | 454 |
+| p22 | 2 | 452 | 454 |
+| **Total** | **113** | **9,875** | **9,988** |
+
+Key observations:
+- p08 and p09 are outliers with 20 and 18 deletions respectively.
+- p12 has the fewest deletions (1 — the most faithful performance).
+- Average deletions per performer: 5.1.
+- Total claims across all 22 files: 9,988 (22 × 454).
+- Total synchronous (matched) claims: 9,875.
+- Total non-synchronous (NOMATCH) claims: 113.
+
+### Coordinate Domains
+
+| Domain | Unit | Stored As | Notes |
+|---|---|---|---|
+| Score (internal) | Quarter beats (raw) | `start`, `end` on score TL | May include negative values for anacrusis notes |
+| Score (normalised view) | Quarter beats (shifted) | via `raw_to_normalised` ShiftMap | Offset = −min(raw onsets); computed dynamically |
+| Score (divisions view) | MIDI divisions (480/qn) | via `quarters_to_divs` ScalarMap | Forward: quarters×480; inverse: ÷480 |
+| Score position | Measure:beat string | `measure_beat` field | Not a coordinate; metadata only |
+| Performance (internal) | MIDI ticks | `start`, `end` on perf TL | Always non-negative |
+| Performance (seconds view) | Seconds | via `ticks_to_seconds` ScalarMap | Factor = midiClockRate/(midiClockUnits×10⁶) |
+
+The C-Maps attached to each timeline convert *from* that timeline's primary unit *to*
+the named alternative unit. To go in the reverse direction, call `.inverse()` on the map.
+
+---
+
+## Validation Strategy
+
+### What We Test
+
+Testing this specimen exercises the following TTA concepts and components:
+
+1. **Match file parsing** (`MatchfileLoader`): Prolog grammar, header extraction, deletion handling, pedal line filtering, grace note detection.
+2. **Score timeline construction**: raw quarter-beat coordinates; `raw_to_normalised` ShiftMap (offset computed dynamically, never hardcoded); `quarters_to_divs` ScalarMap.
+3. **Performance timeline construction**: tick coordinates; `ticks_to_seconds` ScalarMap derived from `midiClockRate`/`midiClockUnits`.
+4. **MatchClaim generation**: One `MatchClaim.from_events()` per `snote-note` line (using raw score coordinates); one `MatchClaim.nomatch()` per `snote-deletion` line.
+5. **MatchMetadata provenance**: `agent="vienna_match_v1.0.0"`, `decision_criteria="automatic"`.
+6. **External timeline binding (Pattern 1)**: `loader.load(*files)` then `loader.create_alignment_bundle(score_timeline=pre_loaded_tl)`; events looked up by ID, added if absent, coordinate-verified if present.
+7. **Loader-managed shared score (Pattern 2)**: `loader.load(*files)` then `loader.create_alignment_bundle()` (no file arguments); the loader automatically builds and caches the shared score TL during `load()`.
+8. **AlignmentBundle construction**: Adding 22 performance timelines with cross-group MatchClaims.
+
+### Test Classes (✅ IMPLEMENTED — `tests/loader/test_matchfile_loader.py`)
+
+**165 tests across 15 classes, ALL PASSING** (both serial `-n 0` and parallel `-n auto`).
+
+#### `TestMatchfileFormat` (5 tests)
+Unit tests for the raw parser, independent of TTA objects.
+
+| Test | Assertion | Exact Value |
+|---|---|---|
+| `test_header_parsing` | Header fields parsed correctly | version=1.0.0, midiClockUnits=480 |
+| `test_header_version` | Version string from header | "1.0.0" |
+| `test_load_returns_self` | `load()` returns `Self` for chaining | — |
+| `test_file_not_found_raises` | Missing file raises `FileNotFoundError` | — |
+| `test_wrong_extension_raises` | Non-`.match` extension raises `ValueError` | — |
+
+#### `TestMatchfileLoaderSingle` (22 tests)
+Tests `MatchfileLoader.load("Chopin_op10_no3_p01.match")`.
+
+| Test | Assertion | Exact Value |
+|---|---|---|
+| `test_score_timeline_type` | Score TL is `ContinuousLogicalTimeline` | — |
+| `test_score_timeline_unit` | Score TL uses `TimeUnit.quarters` | — |
+| `test_score_timeline_uid` | Score TL uid starts with `score:` | — |
+| `test_score_timeline_note_count` | Notes on score TL | 454 |
+| `test_score_timeline_nonnegative_coordinates` | All coordinates >= 0 | — |
+| `test_anacrusis_offset` | Offset computed from file | 0.5 (computed, not hardcoded) |
+| `test_score_cmap_shift` | `raw_to_normalised` ShiftMap attached | `ShiftMap.offset == 0.5` |
+| `test_score_cmap_divs` | `quarters_to_divs` ScalarMap attached | `cmap(1.0) == 480` |
+| `test_perf_timeline_type` | Performance TL is `DiscreteLogicalTimeline` | — |
+| `test_perf_timeline_unit` | Performance TL uses `TimeUnit.ticks` | — |
+| `test_perf_timeline_uid` | Performance TL uid starts with `perf:` | — |
+| `test_perf_timeline_note_count` | Notes on performance TL | 451 |
+| `test_perf_cmap_seconds` | `ticks_to_seconds` ScalarMap attached | Factor from header |
+| `test_total_claims_count` | Total MatchClaims | 454 |
+| `test_synchronous_claims_count` | Synchronous (matched) claims | 451 |
+| `test_nomatch_claims_count` | Non-synchronous (deletion) claims | 3 |
+| `test_synchronous_claims_have_anchors` | All sync claims have start_anchor | — |
+| `test_nomatch_claims_have_no_anchors` | All nomatch claims have no anchors | — |
+| `test_match_metadata_agent` | Agent provenance | `"vienna_match_v1.0.0"` |
+| `test_match_metadata_criteria` | Decision criteria | `"automatic"` |
+| `test_match_metadata_certainty` | Certainty level | `1.0` |
+| `test_claims_reference_correct_timelines` | Claims reference score and perf TL uids | — |
+| `test_sources_tracked` | Source file recorded | — |
+| `test_no_rejected_files` | No files rejected | 0 |
+| `test_loader_len` | `len(loader)` returns file count | 1 |
+| `test_loader_repr` | `repr(loader)` is informative | — |
+
+#### `TestMatchfileLoaderNormalization` (3 tests)
+Tests anacrusis normalisation behaviour.
+
+| Test | Assertion |
+|---|---|
+| `test_no_normalisation_flag` | `normalise=False` suppresses ShiftMap; raw negative coords preserved |
+| `test_anacrusis_offset_computed_from_file` | Offset derived from min(raw onsets), not hardcoded |
+| `test_normalisation_still_shifts_coordinates` | With normalisation, all coords >= 0 |
+
+#### `TestMatchfileLoaderCreateTimeline` (6 tests)
+Tests `create_timeline(id)` by role and uid.
+
+| Test | Assertion |
+|---|---|
+| `test_score_role` | `create_timeline("score")` returns score TL |
+| `test_perf_numeric_role` | `create_timeline("perf:1")` returns first perf TL |
+| `test_perf_uid_lookup` | `create_timeline(uid)` returns matching TL |
+| `test_score_uid_lookup` | `create_timeline(score_uid)` returns score TL |
+| `test_invalid_role_raises` | `create_timeline("nonexistent")` raises `KeyError` |
+| `test_no_load_raises` | `create_timeline()` before `load()` raises `RuntimeError` |
+
+#### `TestMatchfileLoaderCreateTimelines` (4 tests)
+Tests `create_timelines()` list output.
+
+| Test | Assertion |
+|---|---|
+| `test_single_file_gives_two` | Single load → 2 timelines (score + perf) |
+| `test_score_is_first` | Score is the first element |
+| `test_returns_list` | Return type is `list` |
+| `test_empty_before_load` | Before `load()`, returns empty list |
+
+#### `TestMatchfileLoaderCreateBundle` (6 tests)
+Tests `create_alignment_bundle()`.
+
+| Test | Assertion |
+|---|---|
+| `test_returns_alignment_bundle` | Returns `AlignmentBundle` (not a wrapper) |
+| `test_bundle_timeline_count` | 2 timelines (1 score + 1 perf) |
+| `test_bundle_score_timeline` | Score TL is the same object |
+| `test_bundle_score_in_group` | Score is in its own group |
+| `test_bundle_cross_group_claims` | Claims transferred to bundle |
+| `test_no_load_raises` | Before `load()` raises `RuntimeError` |
+
+#### `TestMatchfileLoaderExternalScore` (6 tests)
+Tests Pattern B: user-supplied external score timeline and compatibility verification.
+
+| Test | Assertion |
+|---|---|
+| `test_external_score_used_in_bundle` | Bundle uses provided score TL |
+| `test_claims_still_reference_internal_uid` | Claims use the loader's internal score uid |
+| `test_compatible_external_score_accepted` | External TL with matching events passes verification |
+| `test_incompatible_external_score_raises` | Mismatched coordinates raise `ValueError` |
+| `test_verify_false_skips_check` | `verify=False` suppresses compatibility check |
+| `test_empty_external_score_accepted` | Absent events tolerated (empty external TL passes) |
+
+#### `TestMatchfileLoaderMulti` (17 tests)
+Full 22-performance scenario.
+
+| Test | Assertion | Exact Value |
+|---|---|---|
+| `test_22_performances_loaded` | 22 performances loaded | 22 |
+| `test_22_sources_tracked` | 22 source files tracked | 22 |
+| `test_no_rejected_files` | No files rejected | 0 |
+| `test_score_note_count_unchanged` | Score note count after 22 loads | 454 |
+| `test_shared_score_timeline` | All performances share same score TL | 1 unique ID |
+| `test_distinct_performance_uids` | 22 distinct performance UIDs | 22 |
+| `test_total_claims_count` | Total claims across all 22 files | 9,988 |
+| `test_all_claims_reference_same_score` | All claims share same `timeline_a_id` | — |
+| `test_bundle_timeline_count` | Bundle has 23 timelines | 23 |
+| `test_bundle_cross_group_claims_count` | Bundle cross-group claims | 9,988 |
+| `test_create_timelines_gives_23` | `create_timelines()` returns 23 | 23 |
+| `test_perf_numeric_lookup_all` | `create_timeline("perf:N")` works for N=1..22 | — |
+| `test_incremental_load` | Load 5, then load 5 more = 10 total | 10 |
+
+#### `TestTimelineGetEvent` (5 tests)
+Tests `Timeline.get_event(event_id)` — single event lookup by ID (Phase B).
+
+| Test | Assertion |
+|---|---|
+| `test_get_existing_event` | Returns dict with matching ID |
+| `test_get_nonexistent_event` | Returns `None` for unknown ID |
+| `test_event_has_coordinates` | Returned dict has `start` and `end` fields |
+| `test_event_start_matches_cache` | Coordinate matches internal `_score_events` cache |
+| `test_performance_timeline_get_event` | Works on performance timelines too |
+
+#### `TestTimelineGetConversionMapByName` (6 tests)
+Tests name-based `get_conversion_map()` fallback lookup (Phase B).
+
+| Test | Assertion |
+|---|---|
+| `test_lookup_by_unit_still_works` | `get_conversion_map(TimeUnit.seconds)` unchanged |
+| `test_lookup_by_unit_string` | `get_conversion_map("seconds")` unchanged |
+| `test_lookup_by_name_shift_map` | `"raw_to_normalised"` finds ShiftMap |
+| `test_lookup_by_name_scalar_map` | `"quarters_to_divs"` finds ScalarMap |
+| `test_lookup_by_unknown_name_returns_none` | Unknown name returns `None` |
+| `test_lookup_by_unknown_unit_returns_none` | Unknown unit returns `None` |
+
+#### `TestMatchfileLoaderCheckOrAddScoreEvent` (5 tests)
+Tests `_check_or_add_score_event()` and `_to_tta_coord()` (Phase B).
+
+| Test | Assertion |
+|---|---|
+| `test_compatible_event_returns_true` | Known event with matching coords returns `True` |
+| `test_incompatible_event_returns_false` | Known event with wrong onset returns `False` |
+| `test_new_event_added` | Unknown event ID added to cache |
+| `test_new_event_appears_on_timeline` | Added event retrievable via `get_event()` |
+| `test_to_tta_coord_static` | `_to_tta_coord(raw, offset)` is pure addition |
+
+#### `TestPerPerformerDeletionCounts` (52 tests)
+Parametrised validation of per-performer deletion and match counts (Phase C).
+
+| Test | Assertion |
+|---|---|
+| `test_all_files_have_known_deletion_counts` | Every file has a gold standard count |
+| `test_per_performer_deletion_count[p01-p22]` | 22 parametrised: exact NOMATCH count |
+| `test_per_performer_matched_count[p01-p22]` | 22 parametrised: exact synchronous count |
+| `test_total_deletions_across_all_performers` | 113 total deletions |
+| `test_total_matched_across_all_performers` | 9,875 total matched |
+| `test_p08_highest_deletion_count` | p08 outlier: 20 deletions |
+| `test_p12_lowest_deletion_count` | p12 outlier: 1 deletion |
+
+#### `TestMatchfileLoaderPerfPNNShorthand` (5 tests)
+Tests the `perf:pNN` shorthand lookup in `create_timeline()` (Phase C).
+
+| Test | Assertion |
+|---|---|
+| `test_perf_p01_shorthand` | `"perf:p01"` resolves to first perf TL |
+| `test_perf_p_shorthands_all_22` | `"perf:p01"` through `"perf:p22"` all resolve |
+| `test_perf_p_shorthand_matches_numeric` | `"perf:pNN"` same as `"perf:N"` |
+| `test_perf_p_invalid_raises` | `"perf:pabc"` raises `KeyError` |
+| `test_perf_p_out_of_range_raises` | `"perf:p99"` raises `KeyError` |
+
+#### `TestMatchfileLoaderRejection` (4 tests)
+Tests file rejection during multi-file loading (Phase C).
+
+| Test | Assertion |
+|---|---|
+| `test_rejection_preserves_prior_state` | Rejected file does not affect prior data |
+| `test_rejection_does_not_add_performance_timeline` | No perf TL added for rejected file |
+| `test_rejected_file_tracked_in_sources` | Rejected file appears in `.sources` |
+| `test_rejection_allows_subsequent_compatible_files` | Compatible file loads after rejection |
+
+#### `TestPerPerformerPerfNoteCount` (22 tests)
+Parametrised validation of performance timeline note counts (Phase C).
+
+| Test | Assertion |
+|---|---|
+| `test_perf_note_count[p01-p22]` | 22 parametrised: `len(perf_tl) == SNOTE_COUNT - deletions` |
+
+### Validation Against Gold Standard
+
+The `ms3/` TSV files serve as the score ground truth.
+
+- `chopin_op10_no3.notes.tsv` → 498 notes (full score); only 454 appear in `.match` files
+  (the 44-note discrepancy must be documented in the loader's docstring once confirmed).
+- Cross-check: score onset values from the `.match` file (`scoreOnset` float field)
+  must match `quarterbeats_float` from `PartituraLoader` for the same note IDs.
+
+### What We Do NOT Test Here
+
+- Full `AlignmentBundle` construction (tested in `tests/alignment/test_bundle.py`).
+- `WarpMap` generation (tested in `tests/alignment/test_warpmap.py`).
+- Audio-level alignment (no audio files provided).
+
+---
+
+## Performance Benchmark
+
+Profiling results from `tests/loader/profile_matchfile.py` (Feb 2026):
+
+| Operation | Observed | Notes |
+|---|---|---|
+| Load single `.match` file (p01) | 0.314s ± 0.040s | partitura overhead dominates |
+| Load all 22 `.match` files | 6.517s ± 0.377s | ~0.296s per file |
+| Bundle assembly (single file) | 0.4ms | Negligible |
+| Bundle assembly (22 files) | 2.6ms | O(n) in timelines + claims |
+| Claims/sec (single file) | ~1,450 | |
+| Claims/sec (22 files) | ~1,530 | |
+
+Per-file load times (serial, individual loading):
+
+| Metric | Value |
+|---|---|
+| Mean | 0.271s |
+| Stdev | 0.041s |
+| Min | 0.211s (p08) |
+| Max | 0.349s (p05) |
+| Total (serial) | 5.951s |
+
+> **Bottleneck analysis:** The dominant cost is `partitura.load_match()` which performs
+> full score construction from the Prolog-style `.match` format. The TTA overhead
+> (timeline construction, MatchClaim creation, coordinate normalisation) is negligible.
+> Bundle assembly is O(n) in the number of timelines + claims and takes < 3ms.
+
+```bash
+# Run profiling script
+python tests/loader/profile_matchfile.py
+```
+
+---
+
+## Known Issues and Discrepancies
+
+1. **Score note subset:** The `.match` files align 454 of the 510 score notes
+   (498 regular + 12 grace notes). The 56-note gap (510 − 454) includes the 12
+   grace notes and 44 additional notes not covered by the match format. The
+   `MatchfileLoader` correctly loads all 454 snote records per file, verified
+   across all 22 performances.
+
+2. **Negative score onsets:** Score onset `−0.5` for the anacrusis note (n1, measure 0,
+   beat 1). The `MatchfileLoader` stores raw coordinates as-is (preserving the negative
+   value) and attaches a `ShiftMap` named `"raw_to_normalised"` to the score timeline.
+   The offset is computed dynamically from the file (`−min(raw_onsets)`), never
+   hardcoded. `PartituraLoader` also shifts these coordinates; a follow-up task (Phase B
+   step 8b in `matchfile_loader_plan.md`) adds the same ShiftMap to its output timeline
+   so that downstream code can inspect the offset and align coordinate spaces.
+
+3. **Deletion semantics:** The Vienna format uses `snote(...)-deletion` (not the
+   reverse — it is the *score* note that has no *performance* counterpart, i.e. the
+   pianist omitted it). This maps to `MatchClaim.nomatch(source_tl_id=score_tl_id,
+   target_tl_id=perf_tl_id)`, not the other way around.
+
+4. **Grace note duration:** Grace notes have `duration=1/8` in the score field but
+   `score_onset == score_offset` (zero duration as notated). The distinction is between
+   *nominal* duration (encoded) and *performed* duration (zero). Store both.
+
+---
+
+## Running Tests
+
+```bash
+# All vienna_1x22-related tests (165 tests, all passing — Phase A + B + C)
+pytest tests/loader/test_matchfile_loader.py -v
+
+# Run in serial mode (for debugging)
+pytest tests/loader/test_matchfile_loader.py -v -n 0
+
+# Cross-validation with score loader tests
+pytest tests/loader/score/test_cross_validation.py -v -k "chopin"
+
+# Run profiling script
+python tests/loader/profile_matchfile.py
+```
