@@ -47,6 +47,29 @@ git push origin testdata-v2     # CI publishes the release
 After the release is up, copy the `REGISTRY = {...}` block from the release
 notes into `timetoalign/testdata/__init__.py` and bump `RELEASE_TAG`.
 
+### Caveat: confirm the workflow actually queued
+
+Tag-only `on: push: tags:` triggers occasionally get dropped by GitHub
+Actions — the tag lands on the remote, but no workflow run is queued and
+no release is published. Always verify after pushing the tag:
+
+```bash
+gh run list --workflow=release.yml --limit 3
+# or:
+gh api repos/TimeToAlign/tta_test_data/actions/runs --jq '.total_count'
+```
+
+If no new run appears within ~30 seconds, delete and re-push the tag to
+re-fire the event:
+
+```bash
+git push origin :refs/tags/testdata-vN
+git push origin testdata-vN
+```
+
+Do not bump `RELEASE_TAG` / `REGISTRY` in the consumer until the run has
+completed and the release page lists the new `.tar.gz` assets.
+
 ## Building locally
 
 ```bash
