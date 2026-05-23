@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mpmToolboxProject>
+    <msm file="Reger - Moment Musical op 13 no 4.msm"/>
+    <mpm file="Reger - Moment Musical op 13 no 4.mpm"/>
+    <score overlayElementSize="15">
+        <page file="score/page-03.png" width.pixels="5192" height.pixels="3828">
+            <note ref="n3" x="1486.0" y="1297.0"/>
+            <note ref="n17" x="3071.0" y="1293.0"/>
+            <note ref="n11" x="1902.0" y="1318.0"/>
+            <note ref="n8" x="1494.0" y="1883.0"/>
+            <note ref="n14" x="2574.0" y="1378.0"/>
+            <note ref="n16" x="2819.0" y="1419.0"/>
+            <note ref="n9" x="996.0" y="1891.0"/>
+            <note ref="n7" x="1239.0" y="1871.0"/>
+            <note ref="n19" x="1946.0" y="1338.0"/>
+            <note ref="n23" x="1954.0" y="1974.0"/>
+            <note ref="n15" x="2816.0" y="1321.0"/>
+            <note ref="n6" x="996.0" y="1842.0"/>
+            <note ref="n12" x="2316.0" y="1297.0"/>
+            <note ref="n10" x="988.0" y="1994.0"/>
+            <note ref="n18" x="3074.0" y="1399.0"/>
+            <note ref="n1" x="993.0" y="1253.0"/>
+            <note ref="n13" x="2574.0" y="1276.0"/>
+            <note ref="n22" x="2580.0" y="1900.0"/>
+            <note ref="n24" x="2580.0" y="1949.0"/>
+            <note ref="n4" x="989.0" y="1338.0"/>
+            <note ref="n5" x="987.0" y="1403.0"/>
+            <note ref="n2" x="1239.0" y="1276.0"/>
+            <note ref="n20" x="1950.0" y="1384.0"/>
+        </page>
+    </score>
+    <audios>
+        <audio file="audio/Maria Waloschek - Moment Musical.wav">
+            <spectrogram windowFunction="Hamming{length=4096}" hopSize="512" minFrequency="8.0" maxFrequency="12544.0" binsPerSemitone="1" normalize="true" file="audio/Maria Waloschek - Moment Musical.png"/>
+            <alignment>
+                <part id="right_hand" midi.port="0" midi.channel="0" number="1" name="piano right hand">
+                    <note ref="n1" midi.pitch="75.0" milliseconds.date="1119.0692262943578" milliseconds.date.end="1494.160157145187" velocity="100.0" fixed="true"/>
+                    <note ref="n4" midi.pitch="68.0" milliseconds.date="1119.0692262943578" milliseconds.date.end="2112.095637666643" velocity="100.0" fixed="false"/>
+                    <note ref="n5" midi.pitch="63.0" milliseconds.date="1119.0692262943578" milliseconds.date.end="2112.095637666643" velocity="100.0" fixed="false"/>
+                    <note ref="n2" midi.pitch="73.0" milliseconds.date="1494.160157145187" milliseconds.date.end="1779.2276205630662" velocity="100.0" fixed="true"/>
+                    <note ref="n3" midi.pitch="72.0" milliseconds.date="1779.2276205630662" milliseconds.date.end="2112.095637666643" velocity="100.0" fixed="true"/>
+                    <note ref="n11" midi.pitch="70.0" milliseconds.date="2112.095637666643" milliseconds.date.end="2687.283190036809" velocity="100.0" fixed="true"/>
+                    <note ref="n19" midi.pitch="68.0" milliseconds.date="2112.095637666643" milliseconds.date.end="3048.368336931608" velocity="100.0" fixed="false"/>
+                    <note ref="n20" midi.pitch="65.0" milliseconds.date="2112.095637666643" milliseconds.date.end="3048.368336931608" velocity="100.0" fixed="false"/>
+                    <note ref="n12" midi.pitch="72.0" milliseconds.date="2687.283190036809" milliseconds.date.end="3048.368336931608" velocity="100.0" fixed="true"/>
+                    <note ref="n13" midi.pitch="73.0" milliseconds.date="3048.368336931608" milliseconds.date.end="3350.000396699687" velocity="100.0" fixed="true"/>
+                    <note ref="n14" midi.pitch="65.0" milliseconds.date="3048.368336931608" milliseconds.date.end="3350.000396699687" velocity="100.0" fixed="false"/>
+                    <note ref="n15" midi.pitch="70.0" milliseconds.date="3350.000396699687" milliseconds.date.end="3653.551157621114" velocity="100.0" fixed="true"/>
+                    <note ref="n16" midi.pitch="61.0" milliseconds.date="3350.000396699687" milliseconds.date.end="3653.551157621114" velocity="100.0" fixed="false"/>
+                    <note ref="n17" midi.pitch="72.0" milliseconds.date="3653.551157621114" milliseconds.date.end="4038.5420611333716" velocity="100.0" fixed="false"/>
+                    <note ref="n18" midi.pitch="63.0" milliseconds.date="3653.551157621114" milliseconds.date.end="4038.5420611333716" velocity="100.0" fixed="true"/>
+                    <note ref="n25" midi.pitch="68.0" milliseconds.date="4038.5420611333716" milliseconds.date.end="5234.014885939239" velocity="100.0" fixed="true"/>
+                    <note ref="n26" midi.pitch="60.0" milliseconds.date="4038.5420611333716" milliseconds.date.end="5234.014885939239" velocity="100.0" fixed="false"/>
+                    <note ref="n27" midi.pitch="75.0" milliseconds.date="5234.014885939239" milliseconds.date.end="5643.509031115625" velocity="100.0" fixed="true"/>
+                    <note ref="n28" midi.pitch="63.0" milliseconds.date="5234.014885939239" milliseconds.date.end="5643.509031115625" velocity="100.0" fixed="false"/>
+                    <note ref="n33" midi.pitch="68.0" milliseconds.date="5234.014885939239" milliseconds.date.end="6879.323084351893" velocity="100.0" fixed="false"/>
+                    <note ref="n29" midi.pitch="78.0" milliseconds.date="5643.509031115625" milliseconds.date.end="5935.299356740629" velocity="100.0" fixed="true"/>
+                    <note ref="n30" midi.pitch="66.0" milliseconds.date="5643.509031115625" milliseconds.date.end="5935.299356740629" velocity="100.0" fixed="false"/>
+                    <note ref="n31" midi.pitch="77.0" milliseconds.date="5935.299356740629" milliseconds.date.end="6267.800023361483" velocity="100.0" fixed="true"/>
+                    <note ref="n32" midi.pitch="65.0" milliseconds.date="5935.299356740629" milliseconds.date.end="6267.800023361483" velocity="100.0" fixed="false"/>
+                    <note ref="n43" midi.pitch="73.0" milliseconds.date="6267.800023361483" milliseconds.date.end="7529.49455452475" velocity="100.0" fixed="false"/>
+                    <note ref="n44" midi.pitch="61.0" milliseconds.date="6267.800023361483" milliseconds.date.end="7529.49455452475" velocity="100.0" fixed="false"/>
+                    <note ref="n52" midi.pitch="67.0" milliseconds.date="6879.323084351893" milliseconds.date.end="8843.378070419429" velocity="100.0" fixed="true"/>
+                    <note ref="n47" midi.pitch="77.0" milliseconds.date="7529.49455452475" milliseconds.date.end="7842.934188548191" velocity="100.0" fixed="true"/>
+                    <note ref="n48" midi.pitch="65.0" milliseconds.date="7529.49455452475" milliseconds.date.end="7842.934188548191" velocity="100.0" fixed="false"/>
+                    <note ref="n49" midi.pitch="75.0" milliseconds.date="7842.934188548191" milliseconds.date.end="8182.115023851445" velocity="100.0" fixed="true"/>
+                    <note ref="n50" midi.pitch="63.0" milliseconds.date="7842.934188548191" milliseconds.date.end="8182.115023851445" velocity="100.0" fixed="false"/>
+                    <note ref="n65" midi.pitch="72.0" milliseconds.date="8182.115023851445" milliseconds.date.end="9244.867144293465" velocity="100.0" fixed="true"/>
+                    <note ref="n66" midi.pitch="60.0" milliseconds.date="8182.115023851445" milliseconds.date.end="9244.867144293465" velocity="100.0" fixed="false"/>
+                    <note ref="n74" midi.pitch="68.0" milliseconds.date="8843.378070419429" milliseconds.date.end="11341.176151237503" velocity="100.0" fixed="true"/>
+                    <note ref="n67" midi.pitch="75.0" milliseconds.date="9244.867144293465" milliseconds.date.end="9606.1354018014" velocity="100.0" fixed="true"/>
+                    <note ref="n68" midi.pitch="63.0" milliseconds.date="9244.867144293465" milliseconds.date.end="9606.1354018014" velocity="100.0" fixed="false"/>
+                    <note ref="n69" midi.pitch="73.0" milliseconds.date="9606.1354018014" milliseconds.date.end="9871.970631386117" velocity="100.0" fixed="true"/>
+                    <note ref="n70" midi.pitch="61.0" milliseconds.date="9606.1354018014" milliseconds.date.end="9871.970631386117" velocity="100.0" fixed="false"/>
+                    <note ref="n71" midi.pitch="71.0" milliseconds.date="9871.970631386117" milliseconds.date.end="10243.385503931859" velocity="100.0" fixed="true"/>
+                    <note ref="n72" midi.pitch="59.0" milliseconds.date="9871.970631386117" milliseconds.date.end="10243.385503931859" velocity="100.0" fixed="false"/>
+                    <note ref="n85" midi.pitch="70.0" milliseconds.date="10243.385503931859" milliseconds.date.end="11341.176151237503" velocity="100.0" fixed="true"/>
+                    <note ref="n87" midi.pitch="65.0" milliseconds.date="10243.385503931859" milliseconds.date.end="11341.176151237503" velocity="100.0" fixed="false"/>
+                    <note ref="n88" midi.pitch="58.0" milliseconds.date="10243.385503931859" milliseconds.date.end="11341.176151237503" velocity="100.0" fixed="false"/>
+                    <note ref="n89" midi.pitch="73.0" milliseconds.date="11341.176151237503" milliseconds.date.end="11674.586835578733" velocity="100.0" fixed="true"/>
+                    <note ref="n90" midi.pitch="65.0" milliseconds.date="11341.176151237503" milliseconds.date.end="11674.586835578733" velocity="100.0" fixed="false"/>
+                    <note ref="n95" midi.pitch="67.0" milliseconds.date="11341.176151237503" milliseconds.date.end="12011.414641065978" velocity="100.0" fixed="false"/>
+                    <note ref="n91" midi.pitch="70.0" milliseconds.date="11674.586835578733" milliseconds.date.end="12011.414641065978" velocity="100.0" fixed="true"/>
+                    <note ref="n92" midi.pitch="61.0" milliseconds.date="11674.586835578733" milliseconds.date.end="12011.414641065978" velocity="100.0" fixed="false"/>
+                    <note ref="n93" midi.pitch="72.0" milliseconds.date="12011.414641065978" milliseconds.date.end="12482.184964005235" velocity="100.0" fixed="true"/>
+                    <note ref="n94" midi.pitch="63.0" milliseconds.date="12011.414641065978" milliseconds.date.end="12482.184964005235" velocity="100.0" fixed="false"/>
+                    <note ref="n102" midi.pitch="68.0" milliseconds.date="12482.184964005235" milliseconds.date.end="13894.495932823007" velocity="100.0" fixed="false"/>
+                    <note ref="n103" midi.pitch="60.0" milliseconds.date="12482.184964005235" milliseconds.date.end="13894.495932823007" velocity="100.0" fixed="true"/>
+                </part>
+                <part id="left_hand" midi.port="0" midi.channel="1" number="2" name="piano left hand">
+                    <note ref="n6" midi.pitch="60.0" milliseconds.date="1119.0692262943578" milliseconds.date.end="1494.160157145187" velocity="100.0" fixed="false"/>
+                    <note ref="n9" midi.pitch="56.0" milliseconds.date="1119.0692262943578" milliseconds.date.end="2112.095637666643" velocity="100.0" fixed="false"/>
+                    <note ref="n10" midi.pitch="48.0" milliseconds.date="1119.0692262943578" milliseconds.date.end="2112.095637666643" velocity="100.0" fixed="false"/>
+                    <note ref="n7" midi.pitch="58.0" milliseconds.date="1494.160157145187" milliseconds.date.end="1779.2276205630662" velocity="100.0" fixed="false"/>
+                    <note ref="n8" midi.pitch="56.0" milliseconds.date="1779.2276205630662" milliseconds.date.end="3048.368336931608" velocity="100.0" fixed="false"/>
+                    <note ref="n23" midi.pitch="49.0" milliseconds.date="2112.095637666643" milliseconds.date.end="3048.368336931608" velocity="100.0" fixed="false"/>
+                    <note ref="n22" midi.pitch="55.0" milliseconds.date="3048.368336931608" milliseconds.date.end="4038.5420611333716" velocity="100.0" fixed="false"/>
+                    <note ref="n24" midi.pitch="51.0" milliseconds.date="3048.368336931608" milliseconds.date.end="4038.5420611333716" velocity="100.0" fixed="false"/>
+                    <note ref="n35" midi.pitch="56.0" milliseconds.date="4038.5420611333716" milliseconds.date.end="5234.014885939239" velocity="100.0" fixed="false"/>
+                    <note ref="n36" midi.pitch="53.0" milliseconds.date="4038.5420611333716" milliseconds.date.end="5234.014885939239" velocity="100.0" fixed="false"/>
+                    <note ref="n34" midi.pitch="56.0" milliseconds.date="5234.014885939239" milliseconds.date.end="6879.323084351893" velocity="100.0" fixed="false"/>
+                    <note ref="n37" midi.pitch="60.0" milliseconds.date="5234.014885939239" milliseconds.date.end="5643.509031115625" velocity="100.0" fixed="false"/>
+                    <note ref="n38" midi.pitch="48.0" milliseconds.date="5234.014885939239" milliseconds.date.end="5643.509031115625" velocity="100.0" fixed="false"/>
+                    <note ref="n39" midi.pitch="63.0" milliseconds.date="5643.509031115625" milliseconds.date.end="5935.299356740629" velocity="100.0" fixed="false"/>
+                    <note ref="n40" midi.pitch="51.0" milliseconds.date="5643.509031115625" milliseconds.date.end="5935.299356740629" velocity="100.0" fixed="false"/>
+                    <note ref="n41" midi.pitch="61.0" milliseconds.date="5935.299356740629" milliseconds.date.end="6267.800023361483" velocity="100.0" fixed="false"/>
+                    <note ref="n42" midi.pitch="49.0" milliseconds.date="5935.299356740629" milliseconds.date.end="6267.800023361483" velocity="100.0" fixed="false"/>
+                    <note ref="n57" midi.pitch="58.0" milliseconds.date="6267.800023361483" milliseconds.date.end="7529.49455452475" velocity="100.0" fixed="true"/>
+                    <note ref="n58" midi.pitch="46.0" milliseconds.date="6267.800023361483" milliseconds.date.end="7529.49455452475" velocity="100.0" fixed="false"/>
+                    <note ref="n55" midi.pitch="55.0" milliseconds.date="6879.323084351893" milliseconds.date.end="8843.378070419429" velocity="100.0" fixed="false"/>
+                    <note ref="n61" midi.pitch="61.0" milliseconds.date="7529.49455452475" milliseconds.date.end="7842.934188548191" velocity="100.0" fixed="false"/>
+                    <note ref="n62" midi.pitch="49.0" milliseconds.date="7529.49455452475" milliseconds.date.end="7842.934188548191" velocity="100.0" fixed="false"/>
+                    <note ref="n63" midi.pitch="60.0" milliseconds.date="7842.934188548191" milliseconds.date.end="8182.115023851445" velocity="100.0" fixed="false"/>
+                    <note ref="n64" midi.pitch="48.0" milliseconds.date="7842.934188548191" milliseconds.date.end="8182.115023851445" velocity="100.0" fixed="false"/>
+                    <note ref="n79" midi.pitch="44.0" milliseconds.date="8182.115023851445" milliseconds.date.end="9244.867144293465" velocity="100.0" fixed="false"/>
+                    <note ref="n77" midi.pitch="56.0" milliseconds.date="8843.378070419429" milliseconds.date.end="10243.385503931859" velocity="100.0" fixed="false"/>
+                    <note ref="n80" midi.pitch="41.0" milliseconds.date="9244.867144293465" milliseconds.date.end="9871.970631386117" velocity="100.0" fixed="false"/>
+                    <note ref="n82" midi.pitch="51.0" milliseconds.date="9244.867144293465" milliseconds.date.end="9606.1354018014" velocity="100.0" fixed="false"/>
+                    <note ref="n83" midi.pitch="49.0" milliseconds.date="9606.1354018014" milliseconds.date.end="9871.970631386117" velocity="100.0" fixed="false"/>
+                    <note ref="n81" midi.pitch="39.0" milliseconds.date="9871.970631386117" milliseconds.date.end="10243.385503931859" velocity="100.0" fixed="false"/>
+                    <note ref="n84" midi.pitch="48.0" milliseconds.date="9871.970631386117" milliseconds.date.end="10243.385503931859" velocity="100.0" fixed="false"/>
+                    <note ref="n96" midi.pitch="53.0" milliseconds.date="10243.385503931859" milliseconds.date.end="11341.176151237503" velocity="100.0" fixed="false"/>
+                    <note ref="n97" midi.pitch="46.0" milliseconds.date="10243.385503931859" milliseconds.date.end="11341.176151237503" velocity="100.0" fixed="false"/>
+                    <note ref="n98" midi.pitch="38.0" milliseconds.date="10243.385503931859" milliseconds.date.end="11341.176151237503" velocity="100.0" fixed="false"/>
+                    <note ref="n99" midi.pitch="46.0" milliseconds.date="11341.176151237503" milliseconds.date.end="12011.414641065978" velocity="100.0" fixed="false"/>
+                    <note ref="n101" midi.pitch="39.0" milliseconds.date="11341.176151237503" milliseconds.date.end="12482.184964005235" velocity="100.0" fixed="false"/>
+                    <note ref="n100" midi.pitch="55.0" milliseconds.date="12011.414641065978" milliseconds.date.end="12482.184964005235" velocity="100.0" fixed="false"/>
+                    <note ref="n104" midi.pitch="56.0" milliseconds.date="12482.184964005235" milliseconds.date.end="13894.495932823007" velocity="100.0" fixed="false"/>
+                    <note ref="n105" midi.pitch="51.0" milliseconds.date="12482.184964005235" milliseconds.date.end="13894.495932823007" velocity="100.0" fixed="false"/>
+                    <note ref="n106" midi.pitch="44.0" milliseconds.date="12482.184964005235" milliseconds.date.end="13894.495932823007" velocity="100.0" fixed="false"/>
+                </part>
+            </alignment>
+        </audio>
+    </audios>
+</mpmToolboxProject>
