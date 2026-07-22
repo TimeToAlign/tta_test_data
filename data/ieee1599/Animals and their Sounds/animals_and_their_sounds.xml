@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ieee1599 SYSTEM "http://standards.ieee.org/downloads/1599/1599-2008/ieee1599.dtd">
+<ieee1599 creator="LIM | Laboratorio di Informatica Musicale" version="1.0">
+  <general>
+    <description>
+      <main_title>Animals and their sounds</main_title>
+    </description>
+  </general>
+  <logic>
+    <spine>
+      <!-- time and space offsets are purely indicative (required by the format, but with no meaning in this case) -->
+      <event hpos="0" id="event_cow" timing="0"/>
+      <event hpos="1" id="event_pig" timing="1"/>
+      <event hpos="1" id="event_dog" timing="1"/>
+      <event hpos="1" id="event_sheep" timing="1"/>
+      <event hpos="1" id="event_horse" timing="1"/>
+      <event hpos="1" id="event_cat" timing="1"/>
+      <event hpos="1" id="event_rooster" timing="1"/>
+      <event hpos="1" id="event_duck" timing="1"/>
+    </spine>
+    <los>
+      <staff_list>
+        <staff id="staff0"/>
+      </staff_list>
+      <part id="part0">
+        <voice_list>
+          <voice_item id="voice0" staff_ref="staff0"/>
+        </voice_list>
+        <measure number="1">
+          <voice voice_item_ref="voice0">
+            <rest event_ref="event_cow">
+              <duration den="4" num="4"/>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="2">
+          <voice voice_item_ref="voice0">
+            <rest event_ref="event_pig">
+              <duration den="4" num="4"/>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="3">
+          <voice voice_item_ref="voice0">
+            <rest event_ref="event_dog">
+              <duration den="4" num="4"/>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="4">
+          <voice voice_item_ref="voice0">
+            <rest event_ref="event_sheep">
+              <duration den="4" num="4"/>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="5">
+          <voice voice_item_ref="voice0">
+            <rest event_ref="event_horse">
+              <duration den="4" num="4"/>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="6">
+          <voice voice_item_ref="voice0">
+            <rest event_ref="event_cat">
+              <duration den="4" num="4"/>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="7">
+          <voice voice_item_ref="voice0">
+            <rest event_ref="event_rooster">
+              <duration den="4" num="4"/>
+            </rest>
+          </voice>
+        </measure>
+        <measure number="8">
+          <voice voice_item_ref="voice0">
+            <rest event_ref="event_duck">
+              <duration den="4" num="4"/>
+            </rest>
+          </voice>
+        </measure>
+      </part>
+      <lyrics part_ref="part0" voice_ref="voice0">
+        <!-- Tokenized transcription of the two audio files -->
+        <syllable start_event_ref="event_cow">The black and white cow / La mucca bianca e nera
+</syllable>
+        <syllable start_event_ref="event_pig">The pink pig / Il maialino rosa
+</syllable>
+        <syllable start_event_ref="event_dog">The brown dog / Il cagnolino marrone
+</syllable>
+        <syllable start_event_ref="event_sheep">The white sheep / La pecora bianca
+</syllable>
+        <syllable start_event_ref="event_horse">The black horse / Il cavallo nero
+</syllable>
+        <syllable start_event_ref="event_cat">The orange cat / Il gatto arancio
+</syllable>
+        <syllable start_event_ref="event_rooster">The red rooster / Il gallo rosso
+</syllable>
+        <syllable start_event_ref="event_duck">The yellow duck / L'anatra gialla
+</syllable>
+      </lyrics>
+    </los>
+  </logic>
+  <notational>
+    <graphic_instance_group description="Farm Picture">
+      <graphic_instance encoding_format="image_jpeg" file_format="image_jpeg" file_name="score_files/farm_picture/animal_colors.jpg" measurement_unit="pixels" position_in_group="1">
+        <graphic_event event_ref="event_cow" lower_right_x="1206.4" lower_right_y="448.92" upper_left_x="992.96" upper_left_y="263.32"/>
+        <graphic_event event_ref="event_pig" lower_right_x="203.0" lower_right_y="430.36" upper_left_x="39.44" upper_left_y="310.88"/>
+        <graphic_event event_ref="event_dog" lower_right_x="409.48" lower_right_y="423.4" upper_left_x="263.32" upper_left_y="251.72"/>
+        <graphic_event event_ref="event_sheep" lower_right_x="940.76" lower_right_y="451.24" upper_left_x="776.04" upper_left_y="299.28"/>
+        <graphic_event event_ref="event_horse" lower_right_x="776.62" lower_right_y="703.54" upper_left_x="488.94" upper_left_y="357.86"/>
+        <graphic_event event_ref="event_cat" lower_right_x="1134.48" lower_right_y="622.92" upper_left_x="986.0" upper_left_y="455.88"/>
+        <graphic_event event_ref="event_rooster" lower_right_x="229.68" lower_right_y="650.76" upper_left_x="40.6" upper_left_y="445.44"/>
+        <graphic_event event_ref="event_duck" lower_right_x="467.48" lower_right_y="585.8" upper_left_x="315.52" upper_left_y="431.52"/>
+        <!-- Please note that the image contains an additional animal, not mapped: the hen -->
+      </graphic_instance>
+    </graphic_instance_group>
+    <graphic_instance_group description="Coloring page">
+      <graphic_instance encoding_format="image_jpeg" file_format="image_jpeg" file_name="score_files/coloring_page/animals_picture.jpg" measurement_unit="pixels" position_in_group="1">
+        <graphic_event event_ref="event_cow" lower_right_x="510.4" lower_right_y="269.28" upper_left_x="234.08" upper_left_y="12.32"/>
+        <graphic_event event_ref="event_pig" lower_right_x="225.28" lower_right_y="494.56" upper_left_x="12.32" upper_left_y="288.64"/>
+        <graphic_event event_ref="event_sheep" lower_right_x="968.0" lower_right_y="579.04" upper_left_x="758.56" upper_left_y="371.36"/>
+        <graphic_event event_ref="event_horse" lower_right_x="728.64" lower_right_y="385.44" upper_left_x="528.0" upper_left_y="140.8"/>
+        <graphic_event event_ref="event_rooster" lower_right_x="355.52" lower_right_y="454.96" upper_left_x="228.8" upper_left_y="331.76"/>
+        <graphic_event event_ref="event_duck" lower_right_x="512.16" lower_right_y="411.84" upper_left_x="387.2" upper_left_y="299.2"/>
+        <!-- Please note that two animals have not been mapped, since the image does not contain them -->
+      </graphic_instance>
+    </graphic_instance_group>
+    <graphic_instance_group description="Animal shapes">
+      <graphic_instance encoding_format="image_jpeg" file_format="image_jpeg" file_name="score_files/animal_shapes/animal_shapes.jpg" measurement_unit="pixels" position_in_group="1">
+        <graphic_event event_ref="event_cow" lower_right_x="240.0" lower_right_y="84.0" upper_left_x="159.0" upper_left_y="27.75"/>
+        <graphic_event event_ref="event_cow" lower_right_x="147.0" lower_right_y="102.0" upper_left_x="14.25" upper_left_y="15.75"/>
+        <graphic_event event_ref="event_horse" lower_right_x="323.25" lower_right_y="230.25" upper_left_x="140.25" upper_left_y="91.5"/>
+        <graphic_event event_ref="event_horse" lower_right_x="366.0" lower_right_y="334.5" upper_left_x="240.0" upper_left_y="231.0"/>
+        <graphic_event event_ref="event_duck" lower_right_x="96.0" lower_right_y="693.0" upper_left_x="21.75" upper_left_y="624.0"/>
+        <graphic_event event_ref="event_duck" lower_right_x="222.75" lower_right_y="594.75" upper_left_x="113.25" upper_left_y="499.5"/>
+        <graphic_event event_ref="event_duck" lower_right_x="193.5" lower_right_y="704.25" upper_left_x="89.25" upper_left_y="588.75"/>
+        <graphic_event event_ref="event_rooster" lower_right_x="220.5" lower_right_y="917.25" upper_left_x="48.0" upper_left_y="720.75"/>
+        <graphic_event event_ref="event_dog" lower_right_x="849.0" lower_right_y="804.75" upper_left_x="756.0" upper_left_y="714.0"/>
+        <graphic_event event_ref="event_dog" lower_right_x="990.75" lower_right_y="816.0" upper_left_x="882.75" upper_left_y="727.5"/>
+        <graphic_event event_ref="event_dog" lower_right_x="791.25" lower_right_y="135.0" upper_left_x="704.25" upper_left_y="36.75"/>
+        <graphic_event event_ref="event_cat" lower_right_x="717.75" lower_right_y="132.75" upper_left_x="649.5" upper_left_y="63.0"/>
+        <graphic_event event_ref="event_cat" lower_right_x="875.25" lower_right_y="930.75" upper_left_x="710.25" upper_left_y="818.25"/>
+        <!-- Here some animals are present multiple times -->
+      </graphic_instance>
+    </graphic_instance_group>
+  </notational>
+  <audio>
+    <!-- Start time of events is expressed in seconds -->
+    <track encoding_format="audio_mp3" file_format="audio_mp3" file_name="audio_files/animals_eng.mp3">
+      <track_general>
+        <performers>
+          <performer name="English" type="voice"/>
+        </performers>
+      </track_general>
+      <track_indexing timing_type="seconds">
+        <track_event event_ref="event_cow" start_time="0"/>
+        <track_event event_ref="event_pig" start_time="6.5"/>
+        <track_event event_ref="event_dog" start_time="11.5"/>
+        <track_event event_ref="event_sheep" start_time="16"/>
+        <track_event event_ref="event_horse" start_time="20.5"/>
+        <track_event event_ref="event_cat" start_time="26.5"/>
+        <track_event event_ref="event_rooster" start_time="31.5"/>
+        <track_event event_ref="event_duck" start_time="39"/>
+      </track_indexing>
+    </track>
+    <track encoding_format="audio_mp3" file_format="audio_mp3" file_name="audio_files/animals_ita.mp3">
+      <track_general>
+        <performers>
+          <performer name="Italiano" type="voce"/>
+        </performers>
+      </track_general>
+      <track_indexing timing_type="seconds">
+        <track_event event_ref="event_cow" start_time="0"/>
+        <track_event event_ref="event_pig" start_time="6"/>
+        <track_event event_ref="event_dog" start_time="10.5"/>
+        <track_event event_ref="event_sheep" start_time="14.5"/>
+        <track_event event_ref="event_horse" start_time="19"/>
+        <track_event event_ref="event_cat" start_time="25.5"/>
+        <track_event event_ref="event_rooster" start_time="30.5"/>
+        <track_event event_ref="event_duck" start_time="37.5"/>
+      </track_indexing>
+    </track>
+  </audio>
+</ieee1599>
