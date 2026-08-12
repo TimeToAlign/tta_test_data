@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DJ_PLAYLISTS Version="1.0.0">
+  <PRODUCT Name="rekordbox" Version="7.2.17" Company="AlphaTheta"/>
+  <COLLECTION Entries="46">
+    <TRACK TrackID="254904472" Name="See Me Coming" Artist="Nico Moreno, Samuel Moriero"
+           Composer="" Album="See Me Coming" Grouping="" Genre="" Kind="MP3 File"
+           Size="8479976" TotalTime="256" DiscNumber="1" TrackNumber="1"
+           Year="2025" AverageBpm="160.00" DateAdded="2026-08-03" BitRate="0"
+           SampleRate="48000" Comments="" PlayCount="5" Rating="0" Location="file://localhost/~/git/djmix-analysis/data/moriero/01.%20See%20Me%20Coming.mp3"
+           Remixer="" Tonality="Bm" Label="" Mix="">
+      <TEMPO Inizio="0.082" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <POSITION_MARK Name="" Type="0" Start="0.821" Num="0" Red="255" Green="55" Blue="111"/>
+      <POSITION_MARK Name="intro" Type="0" Start="0.821" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="66.832" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="84.832" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="132.832" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="156.832" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="198.832" Num="-1"/>
+      <POSITION_MARK Name="outro" Type="0" Start="246.832" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="48.832" Num="-1"/>
+      <POSITION_MARK Name="=buildup 1" Type="0" Start="180.832" Num="3" Red="170"
+                     Green="114" Blue="255"/>
+    </TRACK>
+    <TRACK TrackID="105583838" Name="Habstrakt &amp; Samplifire - Tonight (Samuel Moriero Remix) FREE DL"
+           Artist="Samuel Moriero" Composer="" Album="" Grouping="" Genre="Hard Techno"
+           Kind="MP3 File" Size="7287628" TotalTime="227" DiscNumber="0"
+           TrackNumber="0" Year="2025" AverageBpm="160.00" DateAdded="2026-08-03"
+           BitRate="256" SampleRate="44100" Comments="" PlayCount="1" Rating="0"
+           Location="file://localhost/~/git/djmix-analysis/data/moriero/02.%20Tonight%20(Samuel%20Moriero%20Remix).mp3"
+           Remixer="" Tonality="F#m" Label="" Mix="">
+      <TEMPO Inizio="0.071" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="0.445" Bpm="160.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="0.821" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="2.320" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="2.696" Bpm="160.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="3.445" Bpm="160.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="3.821" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="5.320" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="5.696" Bpm="160.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="6.445" Bpm="160.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="6.821" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="8.320" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="8.696" Bpm="160.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="9.445" Bpm="160.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="9.821" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="11.320" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="11.696" Bpm="160.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="12.445" Bpm="160.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="12.821" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="14.320" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="14.696" Bpm="160.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="15.445" Bpm="160.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="15.821" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="17.320" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="17.696" Bpm="160.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="18.445" Bpm="160.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="18.821" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="20.320" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="20.696" Bpm="160.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="21.445" Bpm="160.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="21.821" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="23.320" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="23.696" Bpm="160.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="24.445" Bpm="160.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="24.821" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="26.320" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="26.696" Bpm="160.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="27.445" Bpm="160.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="27.821" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="29.320" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="29.696" Bpm="160.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="32.320" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="32.696" Bpm="160.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="35.320" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="35.696" Bpm="160.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="38.320" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="38.696" Bpm="160.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="41.320" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="41.696" Bpm="160.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="44.320" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="44.696" Bpm="160.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="47.320" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="47.696" Bpm="160.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="50.320" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="50.696" Bpm="160.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="53.320" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="53.696" Bpm="160.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="56.320" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="56.696" Bpm="160.00" Metro="4/4" Battito="4"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.071" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="intro" Type="0" Start="0.071" Num="-1"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.071" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="24.071" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="36.071" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="66.071" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="90.071" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="78.071" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="114.071" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="159.071" Num="-1"/>
+      <POSITION_MARK Name="outro" Type="0" Start="201.071" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="171.071" Num="3" Red="170" Green="114"
+                     Blue="255"/>
+      <POSITION_MARK Name="core" Type="0" Start="177.071" Num="7" Red="195" Green="175"
+                     Blue="4"/>
+    </TRACK>
+    <TRACK TrackID="188355053" Name="WATCH OUT" Artist="Samuel Moriero"
+           Composer="" Album="WATCH OUT" Grouping="" Genre="" Kind="MP3 File"
+           Size="6370268" TotalTime="190" DiscNumber="1" TrackNumber="1"
+           Year="2026" AverageBpm="160.00" DateAdded="2026-08-03" BitRate="0"
+           SampleRate="48000" Comments="" PlayCount="1" Rating="0" Location="file://localhost/~/git/djmix-analysis/data/moriero/03.%20WATCH%20OUT.mp3"
+           Remixer="" Tonality="Dm" Label="" Mix="">
+      <TEMPO Inizio="0.089" Bpm="160.00" Metro="4/4" Battito="4"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.459" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.464" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="intro" Type="0" Start="0.464" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="24.464" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="54.464" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="90.464" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="126.464" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="150.464" Num="-1"/>
+    </TRACK>
+    <TRACK TrackID="32613464" Name="Skrillex, Kendrick Lamar - HUMBLE (Samuel Moriero REMIX)"
+           Artist="Samuel Moriero" Composer="" Album="" Grouping="" Genre="Hard Techno"
+           Kind="MP3 File" Size="8131605" TotalTime="253" DiscNumber="0"
+           TrackNumber="0" Year="2025" AverageBpm="160.00" DateAdded="2026-08-03"
+           BitRate="256" SampleRate="44100" Comments="" PlayCount="1" Rating="0"
+           Location="file://localhost/~/git/djmix-analysis/data/moriero/05.%20HUMBLE%20(Samuel%20Moriero%20REMIX).mp3"
+           Remixer="" Tonality="Ebm" Label="" Mix="">
+      <TEMPO Inizio="0.071" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.071" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="intro" Type="0" Start="0.071" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="24.071" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="48.071" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="78.071" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="126.071" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="150.071" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="180.071" Num="-1"/>
+      <POSITION_MARK Name="outro" Type="0" Start="228.071" Num="-1"/>
+      <POSITION_MARK Name="" Type="0" Start="162.071" Num="6" Red="48" Green="90"
+                     Blue="255"/>
+      <POSITION_MARK Name="" Type="0" Start="168.071" Num="7" Red="195" Green="175"
+                     Blue="4"/>
+      <POSITION_MARK Name="" Type="0" Start="48.071" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="" Type="0" Start="66.071" Num="3" Red="170" Green="114"
+                     Blue="255"/>
+      <POSITION_MARK Name="" Type="0" Start="60.071" Num="2" Red="125" Green="193"
+                     Blue="61"/>
+      <POSITION_MARK Name="" Type="0" Start="150.071" Num="5" Red="224" Green="100"
+                     Blue="27"/>
+    </TRACK>
+    <TRACK TrackID="199116949" Name="People Stomping" Artist="Samuel Moriero"
+           Composer="" Album="People Stomping" Grouping="" Genre="" Kind="MP3 File"
+           Size="6614446" TotalTime="200" DiscNumber="1" TrackNumber="1"
+           Year="2025" AverageBpm="160.00" DateAdded="2026-08-03" BitRate="0"
+           SampleRate="48000" Comments="Schein-Drop bei 2:12" PlayCount="2"
+           Rating="0" Location="file://localhost/~/git/djmix-analysis/data/moriero/07.%20People%20Stomping.mp3"
+           Remixer="" Tonality="Em" Label="" Mix="">
+      <TEMPO Inizio="0.089" Bpm="160.00" Metro="4/4" Battito="4"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.464" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.464" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="intro" Type="0" Start="0.464" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="24.464" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="36.464" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="60.464" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="72.464" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="96.464" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="120.464" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="150.464" Num="-1"/>
+      <POSITION_MARK Name="outro" Type="0" Start="174.464" Num="-1"/>
+      <POSITION_MARK Name="" Type="0" Start="108.464" Num="7" Red="195" Green="175"
+                     Blue="4"/>
+      <POSITION_MARK Name="" Type="0" Start="96.464" Num="6" Red="48" Green="90" Blue="255"/>
+    </TRACK>
+    <TRACK TrackID="239522107" Name="F THE POLICE" Artist="Malaa, Malaa (Alter Ego), Samuel Moriero"
+           Composer="" Album="F THE POLICE" Grouping="" Genre="" Kind="MP3 File"
+           Size="6487202" TotalTime="198" DiscNumber="1" TrackNumber="1"
+           Year="2026" AverageBpm="160.00" DateAdded="2026-08-03" BitRate="0"
+           SampleRate="48000" Comments="Intro enthält Riser" PlayCount="1"
+           Rating="0" Location="file://localhost/~/git/djmix-analysis/data/moriero/08.%20F%20THE%20POLICE.mp3"
+           Remixer="" Tonality="Em" Label="" Mix="">
+      <TEMPO Inizio="0.089" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.083" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.089" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="intro" Type="0" Start="0.089" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="27.089" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="45.089" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="93.089" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="129.089" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="147.089" Num="-1"/>
+      <POSITION_MARK Name="outro" Type="0" Start="171.089" Num="-1"/>
+      <POSITION_MARK Name="" Type="0" Start="27.089" Num="7" Red="195" Green="175"
+                     Blue="4"/>
+    </TRACK>
+    <TRACK TrackID="54183404" Name="Garcia Sauvage - Rodeo [ERROR 303]"
+           Artist="Garcia Sauvage" Composer="" Album="" Grouping="" Genre="Neo Rave"
+           Kind="MP3 File" Size="9612692" TotalTime="300" DiscNumber="0"
+           TrackNumber="0" Year="2025" AverageBpm="160.00" DateAdded="2026-08-03"
+           BitRate="256" SampleRate="44100" Comments="Intro followed by breakdown"
+           PlayCount="2" Rating="0" Location="file://localhost/~/git/djmix-analysis/data/moriero/09.%20Rodeo.mp3"
+           Remixer="" Tonality="Em" Label="" Mix="">
+      <TEMPO Inizio="0.071" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.071" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.071" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="intro" Type="0" Start="0.071" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="30.071" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="54.071" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="78.071" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="126.071" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="138.071" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="162.071" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="186.071" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="204.071" Num="-1"/>
+      <POSITION_MARK Name="outro" Type="0" Start="264.071" Num="-1"/>
+      <POSITION_MARK Name="" Type="0" Start="186.071" Num="7" Red="195" Green="175"
+                     Blue="4"/>
+    </TRACK>
+    <TRACK TrackID="226101770" Name="The Sound" Artist="Dr Rude" Composer=""
+           Album="The Sound" Grouping="" Genre="" Kind="MP3 File" Size="6014605"
+           TotalTime="178" DiscNumber="1" TrackNumber="1" Year="2025" AverageBpm="160.00"
+           DateAdded="2026-08-03" BitRate="0" SampleRate="48000" Comments=""
+           PlayCount="3" Rating="0" Location="file://localhost/~/git/djmix-analysis/data/moriero/10.%20The%20Sound.mp3"
+           Remixer="" Tonality="Em" Label="" Mix="">
+      <TEMPO Inizio="0.089" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.089" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.089" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="intro" Type="0" Start="0.089" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="9.089" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="33.089" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="57.089" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="66.089" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="76.589" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="100.589" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="112.589" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="138.089" Num="-1"/>
+      <POSITION_MARK Name="outro" Type="0" Start="162.089" Num="-1"/>
+    </TRACK>
+    <TRACK TrackID="110260227" Name="LIKE ME" Artist="Samuel Moriero" Composer=""
+           Album="LIKE ME" Grouping="" Genre="" Kind="MP3 File" Size="6188877"
+           TotalTime="188" DiscNumber="1" TrackNumber="1" Year="2025" AverageBpm="160.00"
+           DateAdded="2026-08-03" BitRate="0" SampleRate="48000" Comments="zweiter Drop vorenthalten, dafür stärker"
+           PlayCount="0" Rating="0" Location="file://localhost/~/git/djmix-analysis/data/moriero/11.%20LIKE%20ME.mp3"
+           Remixer="" Tonality="Dbm" Label="" Mix="">
+      <TEMPO Inizio="0.089" Bpm="160.00" Metro="4/4" Battito="4"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.464" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.464" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="intro" Type="0" Start="0.464" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="36.464" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="54.464" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="90.464" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="126.464" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="150.464" Num="-1"/>
+    </TRACK>
+    <TRACK TrackID="62098175" Name="PRESSURE" Artist="Samuel Moriero" Composer=""
+           Album="PRESSURE" Grouping="" Genre="" Kind="MP3 File" Size="5770567"
+           TotalTime="173" DiscNumber="1" TrackNumber="1" Year="2025" AverageBpm="160.00"
+           DateAdded="2026-08-03" BitRate="0" SampleRate="48000" Comments="breakdown könnte als Riesen-buildup gesehen werden"
+           PlayCount="1" Rating="0" Location="file://localhost/~/git/djmix-analysis/data/moriero/12.%20PRESSURE.mp3"
+           Remixer="" Tonality="Dm" Label="" Mix="">
+      <TEMPO Inizio="0.091" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.977" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.977" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.023" Num="2" Red="125" Green="193"
+                     Blue="61"/>
+      <POSITION_MARK Name="intro" Type="0" Start="0.841" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="12.841" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="24.841" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="60.841" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="96.841" Num="-1"/>
+      <POSITION_MARK Name="" Type="0" Start="120.841" Num="-1"/>
+    </TRACK>
+    <TRACK TrackID="179182913" Name="TURN IT UP!" Artist="Jayron" Composer=""
+           Album="TURN IT UP!" Grouping="" Genre="" Kind="MP3 File" Size="5974511"
+           TotalTime="184" DiscNumber="1" TrackNumber="1" Year="2025" AverageBpm="160.00"
+           DateAdded="2026-08-03" BitRate="0" SampleRate="48000" Comments=""
+           PlayCount="2" Rating="0" Location="file://localhost/~/git/djmix-analysis/data/moriero/13.%20TURN%20IT%20UP!.mp3"
+           Remixer="" Tonality="Dm" Label="" Mix="">
+      <TEMPO Inizio="0.088" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="154.214" Bpm="160.00" Metro="4/4" Battito="4"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.827" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.088" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="intro" Type="0" Start="0.088" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="36.088" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="54.088" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="90.088" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="114.088" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="126.088" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="150.088" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="156.089" Num="-1"/>
+    </TRACK>
+    <TRACK TrackID="142599289" Name="Tunnel Vision - Junkie Kid Remix" Artist="Restricted, Nik Sitz, Junkie Kid"
+           Composer="" Album="Tunnel Vision (Remixes)" Grouping="" Genre=""
+           Kind="MP3 File" Size="5758709" TotalTime="175" DiscNumber="1"
+           TrackNumber="1" Year="2025" AverageBpm="160.00" DateAdded="2026-08-03"
+           BitRate="0" SampleRate="48000" Comments="" PlayCount="2" Rating="0"
+           Location="file://localhost/~/git/djmix-analysis/data/moriero/14.%20Tunnel%20Vision%20-%20Junkie%20Kid%20Remix.mp3"
+           Remixer="" Tonality="Abm" Label="" Mix="">
+      <TEMPO Inizio="0.088" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.276" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.276" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="intro" Type="0" Start="0.089" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="36.088" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="72.088" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="108.088" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="150.088" Num="-1"/>
+    </TRACK>
+    <TRACK TrackID="11337767" Name="EMERGENCY" Artist="DJSM, Samuel Moriero"
+           Composer="" Album="EMERGENCY" Grouping="" Genre="" Kind="MP3 File"
+           Size="7247089" TotalTime="216" DiscNumber="1" TrackNumber="1"
+           Year="2025" AverageBpm="160.00" DateAdded="2026-08-03" BitRate="0"
+           SampleRate="48000" Comments="" PlayCount="2" Rating="0" Location="file://localhost/~/git/djmix-analysis/data/moriero/15.%20EMERGENCY.mp3"
+           Remixer="" Tonality="Abm" Label="" Mix="">
+      <TEMPO Inizio="0.094" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.459" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.094" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="intro" Type="0" Start="0.094" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="36.094" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="60.094" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="72.094" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="108.094" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="138.094" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="168.094" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="18.094" Num="-1"/>
+    </TRACK>
+    <TRACK TrackID="187538240" Name="Die" Artist="ECZODIA" Composer="" Album="Die"
+           Grouping="" Genre="" Kind="MP3 File" Size="9366023" TotalTime="288"
+           DiscNumber="1" TrackNumber="1" Year="2025" AverageBpm="160.00"
+           DateAdded="2026-08-03" BitRate="0" SampleRate="48000" Comments="Intro ist Core"
+           PlayCount="1" Rating="0" Location="file://localhost/~/git/djmix-analysis/data/moriero/18.%20Die.mp3"
+           Remixer="" Tonality="Gm" Label="" Mix="">
+      <TEMPO Inizio="0.089" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <POSITION_MARK Name="intro" Type="0" Start="0.089" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="48.089" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="72.089" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="120.089" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="186.089" Num="-1"/>
+      <POSITION_MARK Name="outro" Type="0" Start="258.089" Num="-1"/>
+    </TRACK>
+    <TRACK TrackID="236972334" Name="Dying For You" Artist="Onlynumbers"
+           Composer="" Album="Dying For You" Grouping="" Genre="" Kind="MP3 File"
+           Size="12562099" TotalTime="385" DiscNumber="1" TrackNumber="1"
+           Year="2024" AverageBpm="157.00" DateAdded="2026-08-03" BitRate="0"
+           SampleRate="48000" Comments="" PlayCount="1" Rating="0" Location="file://localhost/~/git/djmix-analysis/data/moriero/19a.%20Dying%20For%20You.mp3"
+           Remixer="" Tonality="Cm" Label="" Mix="">
+      <TEMPO Inizio="0.088" Bpm="157.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="3.528" Bpm="157.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="186.968" Bpm="157.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="370.408" Bpm="157.00" Metro="4/4" Battito="2"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.092" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.280" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="intro" Type="0" Start="0.088" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="36.776" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="49.005" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="73.464" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="85.693" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="97.923" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="165.184" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="195.757" Num="-1"/>
+      <POSITION_MARK Name="breakdwon" Type="0" Start="220.216" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="232.445" Num="-1"/>
+      <POSITION_MARK Name="outro" Type="0" Start="256.904" Num="3" Red="170" Green="114"
+                     Blue="255"/>
+      <POSITION_MARK Name="" Type="0" Start="134.611" Num="7" Red="195" Green="175"
+                     Blue="4"/>
+      <POSITION_MARK Name="" Type="0" Start="136.139" Num="5" Red="224" Green="100"
+                     Blue="27"/>
+    </TRACK>
+    <TRACK TrackID="233924243" Name="Call You" Artist="Samuel Moriero" Composer=""
+           Album="Call You" Grouping="" Genre="" Kind="MP3 File" Size="6827834"
+           TotalTime="207" DiscNumber="1" TrackNumber="1" Year="2025" AverageBpm="160.00"
+           DateAdded="2026-08-03" BitRate="0" SampleRate="48000" Comments="zweiter Drop sehr verzögert"
+           PlayCount="0" Rating="0" Location="file://localhost/~/git/djmix-analysis/data/moriero/19b.%20Call%20You.mp3"
+           Remixer="" Tonality="Fm" Label="" Mix="">
+      <TEMPO Inizio="0.089" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.257" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.257" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.089" Num="2" Red="125" Green="193"
+                     Blue="61"/>
+      <POSITION_MARK Name="intro" Type="0" Start="0.089" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="12.089" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="48.089" Num="-1"/>
+      <POSITION_MARK Name="breakdwon" Type="0" Start="96.089" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="108.089" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="156.089" Num="-1"/>
+      <POSITION_MARK Name="outro" Type="0" Start="192.089" Num="-1"/>
+    </TRACK>
+    <TRACK TrackID="146418138" Name="I SET FIRE" Artist="Vortek&apos;s, Samuel Moriero"
+           Composer="" Album="I SET FIRE" Grouping="" Genre="" Kind="MP3 File"
+           Size="7337271" TotalTime="220" DiscNumber="1" TrackNumber="1"
+           Year="2025" AverageBpm="160.00" DateAdded="2026-08-03" BitRate="0"
+           SampleRate="48000" Comments="anthem-breakdown" PlayCount="1"
+           Rating="0" Location="file://localhost/~/git/djmix-analysis/data/moriero/20.%20I%20SET%20FIRE.mp3"
+           Remixer="" Tonality="Fm" Label="" Mix="">
+      <TEMPO Inizio="0.090" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="24.464" Bpm="160.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="140.713" Bpm="160.00" Metro="4/4" Battito="4"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.090" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.090" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="13.590" Num="-1"/>
+      <POSITION_MARK Name="intro" Type="0" Start="1.590" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="25.589" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="61.589" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="79.589" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="103.589" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="130.589" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="154.588" Num="-1"/>
+      <POSITION_MARK Name="outro" Type="0" Start="202.588" Num="-1"/>
+    </TRACK>
+    <TRACK TrackID="59022562" Name="The Chrononaut" Artist="Fraw, Teal"
+           Composer="" Album="The Chrononaut" Grouping="" Genre="" Kind="MP3 File"
+           Size="7688993" TotalTime="238" DiscNumber="1" TrackNumber="1"
+           Year="2025" AverageBpm="159.98" DateAdded="2026-08-03" BitRate="0"
+           SampleRate="48000" Comments="interesting form; &quot;failed&quot; drop 2:47, followed by trippy hypermeter in the 8-bar kicks melody at the real drop 2:53"
+           PlayCount="2" Rating="0" Location="file://localhost/~/git/djmix-analysis/data/moriero/21.%20The%20Chrononaut.mp3"
+           Remixer="" Tonality="Fm" Label="" Mix="">
+      <TEMPO Inizio="0.078" Bpm="159.98" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="66.085" Bpm="159.98" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="107.339" Bpm="159.98" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="148.593" Bpm="159.98" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="189.847" Bpm="159.98" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="231.101" Bpm="159.98" Metro="4/4" Battito="3"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.772" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.828" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="intro" Type="0" Start="0.828" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="65.334" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="83.336" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="107.339" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="146.342" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="173.345" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="197.347" Num="-1"/>
+    </TRACK>
+    <TRACK TrackID="118947040" Name="GO CRAZY" Artist="Manji" Composer=""
+           Album="GO CRAZY" Grouping="" Genre="" Kind="MP3 File" Size="6327019"
+           TotalTime="186" DiscNumber="1" TrackNumber="1" Year="2025" AverageBpm="160.00"
+           DateAdded="2026-08-03" BitRate="0" SampleRate="48000" Comments="intro&amp;breakdown very dancy"
+           PlayCount="2" Rating="0" Location="file://localhost/~/git/djmix-analysis/data/moriero/22.%20GO%20CRAZY.mp3"
+           Remixer="" Tonality="D" Label="" Mix="">
+      <TEMPO Inizio="0.088" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.088" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.088" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="intro" Type="0" Start="0.088" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="18.088" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="36.088" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="84.088" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="96.088" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="132.088" Num="-1"/>
+    </TRACK>
+    <TRACK TrackID="217442237" Name="Bass Kick" Artist="Samuel Moriero"
+           Composer="" Album="Bass Kick" Grouping="" Genre="" Kind="MP3 File"
+           Size="7614384" TotalTime="231" DiscNumber="1" TrackNumber="1"
+           Year="2025" AverageBpm="160.00" DateAdded="2026-08-03" BitRate="0"
+           SampleRate="48000" Comments="track has variations of the same &quot;cadence&quot;, e.g. 1:18"
+           PlayCount="2" Rating="0" Location="file://localhost/~/git/djmix-analysis/data/moriero/23.%20Bass%20Kick.mp3"
+           Remixer="" Tonality="Gm" Label="" Mix="">
+      <TEMPO Inizio="0.089" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.089" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.089" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="13.589" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="31.589" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="79.589" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="91.589" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="115.589" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="139.589" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="157.589" Num="-1"/>
+      <POSITION_MARK Name="outro" Type="0" Start="205.589" Num="-1"/>
+      <POSITION_MARK Name="intro" Type="0" Start="1.589" Num="-1"/>
+    </TRACK>
+    <TRACK TrackID="5456129" Name="PUMP THIS BASS" Artist="Samuel Moriero"
+           Composer="" Album="PUMP THIS BASS" Grouping="" Genre="" Kind="MP3 File"
+           Size="8035733" TotalTime="238" DiscNumber="1" TrackNumber="1"
+           Year="2025" AverageBpm="160.00" DateAdded="2026-08-03" BitRate="0"
+           SampleRate="48000" Comments="" PlayCount="1" Rating="0" Location="file://localhost/~/git/djmix-analysis/data/moriero/24.%20PUMP%20THIS%20BASS.mp3"
+           Remixer="" Tonality="Abm" Label="" Mix="">
+      <TEMPO Inizio="0.089" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.089" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.089" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="intro" Type="0" Start="1.589" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="13.589" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="37.589" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="49.589" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="67.589" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="127.589" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="151.589" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="175.589" Num="-1"/>
+      <POSITION_MARK Name="outro" Type="0" Start="211.589" Num="-1"/>
+    </TRACK>
+    <TRACK TrackID="243898379" Name="WOOPS EDIT (FREE DL)" Artist="Anderex "
+           Composer="" Album="" Grouping="" Genre="HARD DANCE" Kind="MP3 File"
+           Size="5195013" TotalTime="162" DiscNumber="0" TrackNumber="0"
+           Year="2025" AverageBpm="160.00" DateAdded="2026-08-03" BitRate="256"
+           SampleRate="44100" Comments="double buildup &amp; fake drop"
+           PlayCount="1" Rating="0" Location="file://localhost/~/git/djmix-analysis/data/moriero/25.%20Woops%20(Anderex%20Edit).mp3"
+           Remixer="" Tonality="Gm" Label="" Mix="">
+      <TEMPO Inizio="0.069" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="1.389" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="1.389" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="intro" Type="0" Start="0.069" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="24.069" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="42.069" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="78.069" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="120.069" Num="-1"/>
+    </TRACK>
+    <TRACK TrackID="195524131" Name="Explosive" Artist="Vasto" Composer=""
+           Album="Explosive" Grouping="" Genre="" Kind="MP3 File" Size="4420076"
+           TotalTime="124" DiscNumber="1" TrackNumber="1" Year="2025" AverageBpm="160.00"
+           DateAdded="2026-08-03" BitRate="0" SampleRate="48000" Comments=""
+           PlayCount="2" Rating="0" Location="file://localhost/~/git/djmix-analysis/data/moriero/26.%20Explosive.mp3"
+           Remixer="" Tonality="Em" Label="" Mix="">
+      <TEMPO Inizio="0.093" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="64.219" Bpm="160.00" Metro="4/4" Battito="4"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.093" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.093" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="intro" Type="0" Start="0.093" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="33.093" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="18.093" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="57.093" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="75.094" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="96.094" Num="-1"/>
+    </TRACK>
+    <TRACK TrackID="172868454" Name="Back Now" Artist="Samuel Moriero" Composer=""
+           Album="Back Now" Grouping="" Genre="" Kind="MP3 File" Size="6949159"
+           TotalTime="206" DiscNumber="1" TrackNumber="1" Year="2025" AverageBpm="160.00"
+           DateAdded="2026-08-03" BitRate="0" SampleRate="48000" Comments="drop refused at 2:42"
+           PlayCount="1" Rating="0" Location="file://localhost/~/git/djmix-analysis/data/moriero/27.%20Back%20Now.mp3"
+           Remixer="" Tonality="G" Label="" Mix="">
+      <TEMPO Inizio="0.089" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.839" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.839" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="intro" Type="0" Start="0.839" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="54.839" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="36.839" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="108.839" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="144.839" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="168.839" Num="-1"/>
+    </TRACK>
+    <TRACK TrackID="36271562" Name="Fkn Raw" Artist="Samuel Moriero" Composer=""
+           Album="Back Now" Grouping="" Genre="" Kind="MP3 File" Size="6101429"
+           TotalTime="176" DiscNumber="1" TrackNumber="2" Year="2025" AverageBpm="160.00"
+           DateAdded="2026-08-03" BitRate="0" SampleRate="48000" Comments=""
+           PlayCount="2" Rating="0" Location="file://localhost/~/git/djmix-analysis/data/moriero/28.%20Fkn%20Raw.mp3"
+           Remixer="" Tonality="Abm" Label="" Mix="">
+      <TEMPO Inizio="0.087" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="48.088" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="102.464" Bpm="160.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="156.840" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.083" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.837" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="intro" Type="0" Start="0.837" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="12.837" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="27.837" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="81.838" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="111.839" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="135.839" Num="-1"/>
+    </TRACK>
+    <TRACK TrackID="177027011" Name="HEROINE - Samuel Moriero Remix (FREE DL)"
+           Artist="Samuel Moriero" Composer="" Album="" Grouping="" Genre="Hard Rave"
+           Kind="MP3 File" Size="5532723" TotalTime="172" DiscNumber="0"
+           TrackNumber="0" Year="2025" AverageBpm="160.00" DateAdded="2026-08-03"
+           BitRate="256" SampleRate="44100" Comments="" PlayCount="1" Rating="0"
+           Location="file://localhost/~/git/djmix-analysis/data/moriero/29.%20HEROINE%20-%20Samuel%20Moriero%20Remix.mp3"
+           Remixer="" Tonality="F#" Label="" Mix="">
+      <TEMPO Inizio="0.070" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="58.196" Bpm="160.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="58.570" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="60.071" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="60.445" Bpm="160.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="61.196" Bpm="160.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="61.570" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="61.946" Bpm="160.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="62.320" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="63.071" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="63.445" Bpm="160.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="63.821" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="64.570" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="64.946" Bpm="160.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="65.320" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="65.696" Bpm="160.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="66.445" Bpm="160.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="66.821" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="68.320" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="68.696" Bpm="160.00" Metro="4/4" Battito="4"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.060" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.070" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="intro" Type="0" Start="0.070" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="24.070" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="48.070" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="72.071" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="96.071" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="120.071" Num="-1"/>
+      <POSITION_MARK Name="outro" Type="0" Start="144.071" Num="-1"/>
+    </TRACK>
+    <TRACK TrackID="203719783" Name="TNT &amp; Darren Styles - Hard Beat (Revelation Bootleg)"
+           Artist="officialRevelation" Composer="" Album="" Grouping=""
+           Genre="Hardstyle" Kind="MP3 File" Size="5631227" TotalTime="175"
+           DiscNumber="0" TrackNumber="0" Year="2025" AverageBpm="160.00"
+           DateAdded="2026-08-03" BitRate="256" SampleRate="44100" Comments=""
+           PlayCount="1" Rating="0" Location="file://localhost/~/git/djmix-analysis/data/moriero/30.%20Hard%20Beat%20(Revelation%20Bootleg).mp3"
+           Remixer="" Tonality="F#m" Label="" Mix="">
+      <TEMPO Inizio="0.070" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.070" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.070" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="intro" Type="0" Start="0.070" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="34.570" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="52.570" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="94.570" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="124.570" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="147.070" Num="-1"/>
+    </TRACK>
+    <TRACK TrackID="157738424" Name="Fuck U 2025 - Kruelty Remix" Artist="DJ Vortex, Kruelty"
+           Composer="" Album="Fuck U 2025 (Kruelty Remix)" Grouping="" Genre=""
+           Kind="MP3 File" Size="3594924" TotalTime="103" DiscNumber="1"
+           TrackNumber="1" Year="0" AverageBpm="160.01" DateAdded="2026-08-03"
+           BitRate="0" SampleRate="48000" Comments="" PlayCount="1" Rating="0"
+           Location="file://localhost/~/git/djmix-analysis/data/moriero/31.%20Fuck%20U%202025%20-%20Kruelty%20Remix.mp3"
+           Remixer="" Tonality="F#m" Label="" Mix="">
+      <TEMPO Inizio="0.090" Bpm="160.01" Metro="4/4" Battito="1"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="1.418" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="1.418" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="intro" Type="0" Start="0.090" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="13.589" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="49.587" Num="-1"/>
+    </TRACK>
+    <TRACK TrackID="171470912" Name="GUCCI BAG - Revelation Live Edit" Artist="Anderex, Revelation"
+           Composer="" Album="GUCCI BAG (Revelation Live Edit)" Grouping=""
+           Genre="" Kind="MP3 File" Size="4193037" TotalTime="125" DiscNumber="1"
+           TrackNumber="1" Year="2024" AverageBpm="160.01" DateAdded="2026-08-03"
+           BitRate="0" SampleRate="48000" Comments="" PlayCount="1" Rating="0"
+           Location="file://localhost/~/git/djmix-analysis/data/moriero/32.%20GUCCI%20BAG%20-%20Revelation%20Live%20Edit.mp3"
+           Remixer="" Tonality="F#m" Label="" Mix="">
+      <TEMPO Inizio="0.089" Bpm="160.01" Metro="4/4" Battito="1"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="1.419" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="1.419" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="intro" Type="0" Start="1.589" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="13.589" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="31.588" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="55.587" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="79.586" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="91.586" Num="-1"/>
+    </TRACK>
+    <TRACK TrackID="207601557" Name="ANNIHILATE" Artist="ECZODIA" Composer=""
+           Album="CELESTIAL VISION" Grouping="" Genre="" Kind="MP3 File"
+           Size="6974614" TotalTime="214" DiscNumber="1" TrackNumber="3"
+           Year="2025" AverageBpm="157.00" DateAdded="2026-08-03" BitRate="0"
+           SampleRate="48000" Comments="outro could be seen to start at 2:39 already"
+           PlayCount="1" Rating="0" Location="file://localhost/~/git/djmix-analysis/data/moriero/33.%20ANNIHILATE.mp3"
+           Remixer="" Tonality="Bbm" Label="" Mix="">
+      <TEMPO Inizio="0.089" Bpm="157.00" Metro="4/4" Battito="1"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.089" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.089" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="intro" Type="0" Start="0.089" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="24.547" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="42.891" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="91.808" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="116.267" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="134.611" Num="-1"/>
+      <POSITION_MARK Name="outro" Type="0" Start="183.528" Num="-1"/>
+    </TRACK>
+    <TRACK TrackID="124827937" Name="BLOW IT UP" Artist="Vieze Asbak, Kruelty"
+           Composer="" Album="BLOW IT UP" Grouping="" Genre="" Kind="MP3 File"
+           Size="5473577" TotalTime="158" DiscNumber="1" TrackNumber="1"
+           Year="2025" AverageBpm="160.00" DateAdded="2026-08-03" BitRate="0"
+           SampleRate="48000" Comments="" PlayCount="1" Rating="0" Location="file://localhost/~/git/djmix-analysis/data/moriero/34.%20BLOW%20IT%20UP.mp3"
+           Remixer="" Tonality="Gm" Label="" Mix="">
+      <TEMPO Inizio="0.072" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="24.823" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="90.449" Bpm="160.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="156.075" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.072" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.072" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="intro" Type="0" Start="1.572" Num="-1"/>
+      <POSITION_MARK Name="builidup" Type="0" Start="9.072" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="27.073" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="75.073" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="93.074" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="105.074" Num="-1"/>
+      <POSITION_MARK Name="outro" Type="0" Start="153.074" Num="-1"/>
+    </TRACK>
+    <TRACK TrackID="72283013" Name="DANGER ZONE" Artist="Samuel Moriero, DØMINA"
+           Composer="" Album="Verknipt ARENA II" Grouping="" Genre="" Kind="MP3 File"
+           Size="7767617" TotalTime="234" DiscNumber="1" TrackNumber="12"
+           Year="2025" AverageBpm="160.00" DateAdded="2026-08-03" BitRate="0"
+           SampleRate="48000" Comments="" PlayCount="0" Rating="0" Location="file://localhost/~/git/djmix-analysis/data/moriero/35.%20DANGER%20ZONE.mp3"
+           Remixer="" Tonality="Bb" Label="" Mix="">
+      <TEMPO Inizio="0.089" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.089" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.089" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="intro" Type="0" Start="0.089" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="24.089" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="36.089" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="54.089" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="102.089" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="126.089" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="144.089" Num="-1"/>
+      <POSITION_MARK Name="outro" Type="0" Start="204.089" Num="-1"/>
+    </TRACK>
+    <TRACK TrackID="259219611" Name="Annihilatiøn" Artist="Paul Elstak, Ricardo Moreno, Boogshe"
+           Composer="" Album="Annihilatiøn" Grouping="" Genre="" Kind="MP3 File"
+           Size="5891950" TotalTime="177" DiscNumber="1" TrackNumber="1"
+           Year="2025" AverageBpm="160.00" DateAdded="2026-08-03" BitRate="0"
+           SampleRate="48000" Comments="" PlayCount="2" Rating="0" Location="file://localhost/~/git/djmix-analysis/data/moriero/37.%20Annihilati%c3%b8n.mp3"
+           Remixer="" Tonality="Em" Label="" Mix="">
+      <TEMPO Inizio="0.089" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.839" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.839" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="intro" Type="0" Start="0.839" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="12.839" Num="-1"/>
+      <POSITION_MARK Name="drop" Type="0" Start="30.839" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="78.839" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="117.839" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="135.839" Num="-1"/>
+      <POSITION_MARK Name="outro" Type="0" Start="159.839" Num="-1"/>
+    </TRACK>
+    <TRACK TrackID="227729479" Name="Gasoline" Artist="Storah" Composer=""
+           Album="Gasoline" Grouping="" Genre="" Kind="MP3 File" Size="4653942"
+           TotalTime="135" DiscNumber="1" TrackNumber="1" Year="2025" AverageBpm="160.00"
+           DateAdded="2026-08-03" BitRate="0" SampleRate="48000" Comments="drop &quot;one too early&quot;"
+           PlayCount="2" Rating="0" Location="file://localhost/~/git/djmix-analysis/data/moriero/38.%20Gasoline.mp3"
+           Remixer="" Tonality="Bbm" Label="" Mix="">
+      <TEMPO Inizio="0.089" Bpm="160.00" Metro="4/4" Battito="4"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.464" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.464" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="intro" Type="0" Start="0.464" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="12.464" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="30.464" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="54.464" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="90.464" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="106.964" Num="-1"/>
+    </TRACK>
+    <TRACK TrackID="208798134" Name="OVERTHROW" Artist="MJU, Ph4ntam" Composer=""
+           Album="OVERTHROW (feat. Ph4ntam)" Grouping="" Genre="" Kind="MP3 File"
+           Size="6005438" TotalTime="181" DiscNumber="1" TrackNumber="1"
+           Year="2025" AverageBpm="160.00" DateAdded="2026-08-03" BitRate="0"
+           SampleRate="48000" Comments="first buildup rather stable" PlayCount="1"
+           Rating="0" Location="file://localhost/~/git/djmix-analysis/data/moriero/39.%20OVERTHROW.mp3"
+           Remixer="" Tonality="Em" Label="" Mix="">
+      <TEMPO Inizio="0.088" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="53.714" Bpm="160.00" Metro="4/4" Battito="4"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.088" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.088" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="intro" Type="0" Start="0.088" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="12.088" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="30.088" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="78.089" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="114.089" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="126.089" Num="-1"/>
+    </TRACK>
+    <TRACK TrackID="266705391" Name="Brace For Impact" Artist="Hardwell, Sub Zero Project, Lil Jon"
+           Composer="" Album="Brace For Impact" Grouping="" Genre="" Kind="MP3 File"
+           Size="7151233" TotalTime="220" DiscNumber="1" TrackNumber="1"
+           Year="2025" AverageBpm="150.00" DateAdded="2026-08-03" BitRate="0"
+           SampleRate="48000" Comments="fake drop becomes real drop the second time"
+           PlayCount="2" Rating="0" Location="file://localhost/~/git/djmix-analysis/data/moriero/40.%20Brace%20For%20Impact.mp3"
+           Remixer="" Tonality="Em" Label="" Mix="">
+      <TEMPO Inizio="0.145" Bpm="150.00" Metro="4/4" Battito="2"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.009" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.743" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="intro" Type="0" Start="0.945" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="63.745" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="89.345" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="114.945" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="159.745" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="178.945" Num="-1"/>
+    </TRACK>
+    <TRACK TrackID="2000377" Name="Vielleicht Vielleicht" Artist="MilleniumKid, JBS"
+           Composer="" Album="Wie weit" Grouping="" Genre="" Kind="MP3 File"
+           Size="4532142" TotalTime="142" DiscNumber="1" TrackNumber="2"
+           Year="2024" AverageBpm="140.00" DateAdded="2026-08-03" BitRate="0"
+           SampleRate="48000" Comments="" PlayCount="1" Rating="0" Location="file://localhost/~/git/djmix-analysis/data/moriero/41b.%20Vielleicht%20Vielleicht.mp3"
+           Remixer="" Tonality="F#m" Label="" Mix="">
+      <TEMPO Inizio="0.090" Bpm="140.00" Metro="4/4" Battito="1"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.090" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="1.1Bars" Type="0" Start="0.090" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="intro" Type="0" Start="0.090" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="68.661" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="82.375" Num="-1"/>
+      <POSITION_MARK Name="buildup" Type="0" Start="96.090" Num="-1"/>
+      <POSITION_MARK Name="drop" Type="0" Start="109.804" Num="-1"/>
+      <POSITION_MARK Name="outro" Type="0" Start="125.233" Num="-1"/>
+      <POSITION_MARK Name="core" Type="0" Start="27.518" Num="-1"/>
+      <POSITION_MARK Name="breakdown" Type="0" Start="41.233" Num="-1"/>
+    </TRACK>
+    <TRACK TrackID="11955317" Name="House 1" Artist="rekordbox" Composer=""
+           Album="GROOVE CIRCUIT FACTORY SAMPLES" Grouping="" Genre="Loop Samples"
+           Kind="WAV File" Size="523592" TotalTime="1" DiscNumber="0" TrackNumber="0"
+           Year="0" AverageBpm="123.00" DateAdded="2026-08-06" BitRate="2116"
+           SampleRate="44100" Comments="4-Floor / Breaks Kit (A-1)" PlayCount="1"
+           Rating="0" Location="file://localhost/C:/Users/djsets/Music/rekordbox/Sampler/GROOVE%20CIRCUIT/PRESET/4-Floor%20Breaks%20Kit/House1.wav"
+           Remixer="" Tonality="Am" Label="" Mix="">
+      <TEMPO Inizio="0.000" Bpm="123.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="4698620" Name="House 2" Artist="rekordbox" Composer=""
+           Album="GROOVE CIRCUIT FACTORY SAMPLES" Grouping="" Genre="Loop Samples"
+           Kind="WAV File" Size="516208" TotalTime="1" DiscNumber="0" TrackNumber="0"
+           Year="0" AverageBpm="125.00" DateAdded="2026-08-06" BitRate="2116"
+           SampleRate="44100" Comments="4-Floor / Breaks Kit (A-2)" PlayCount="0"
+           Rating="0" Location="file://localhost/C:/Users/djsets/Music/rekordbox/Sampler/GROOVE%20CIRCUIT/PRESET/4-Floor%20Breaks%20Kit/House2.wav"
+           Remixer="" Tonality="Gm" Label="" Mix="">
+      <TEMPO Inizio="0.000" Bpm="125.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="246609877" Name="Techno 1" Artist="rekordbox" Composer=""
+           Album="GROOVE CIRCUIT FACTORY SAMPLES" Grouping="" Genre="Loop Samples"
+           Kind="WAV File" Size="474222" TotalTime="1" DiscNumber="0" TrackNumber="0"
+           Year="0" AverageBpm="136.00" DateAdded="2026-08-06" BitRate="2116"
+           SampleRate="44100" Comments="4-Floor / Breaks Kit (A-3)" PlayCount="0"
+           Rating="0" Location="file://localhost/C:/Users/djsets/Music/rekordbox/Sampler/GROOVE%20CIRCUIT/PRESET/4-Floor%20Breaks%20Kit/Techno1.wav"
+           Remixer="" Tonality="Fm" Label="" Mix="">
+      <TEMPO Inizio="0.000" Bpm="136.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="118266616" Name="Breaks 1" Artist="rekordbox" Composer=""
+           Album="GROOVE CIRCUIT FACTORY SAMPLES" Grouping="" Genre="Loop Samples"
+           Kind="WAV File" Size="1954162" TotalTime="7" DiscNumber="0" TrackNumber="0"
+           Year="0" AverageBpm="130.00" DateAdded="2026-08-06" BitRate="2116"
+           SampleRate="44100" Comments="4-Floor / Breaks Kit (A-4)" PlayCount="0"
+           Rating="0" Location="file://localhost/C:/Users/djsets/Music/rekordbox/Sampler/GROOVE%20CIRCUIT/PRESET/4-Floor%20Breaks%20Kit/Breaks1.wav"
+           Remixer="" Tonality="Dm" Label="" Mix="">
+      <TEMPO Inizio="0.000" Bpm="130.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="9595066" Name="House 3" Artist="rekordbox" Composer=""
+           Album="GROOVE CIRCUIT FACTORY SAMPLES" Grouping="" Genre="Loop Samples"
+           Kind="WAV File" Size="3628988" TotalTime="13" DiscNumber="0"
+           TrackNumber="0" Year="0" AverageBpm="140.00" DateAdded="2026-08-06"
+           BitRate="2116" SampleRate="44100" Comments="4-Floor / Breaks Kit (B-1)"
+           PlayCount="0" Rating="0" Location="file://localhost/C:/Users/djsets/Music/rekordbox/Sampler/GROOVE%20CIRCUIT/PRESET/4-Floor%20Breaks%20Kit/House3.wav"
+           Remixer="" Tonality="Abm" Label="" Mix="">
+      <TEMPO Inizio="0.000" Bpm="140.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="227583537" Name="House 4" Artist="rekordbox" Composer=""
+           Album="GROOVE CIRCUIT FACTORY SAMPLES" Grouping="" Genre="Loop Samples"
+           Kind="WAV File" Size="3387068" TotalTime="12" DiscNumber="0"
+           TrackNumber="0" Year="0" AverageBpm="150.00" DateAdded="2026-08-06"
+           BitRate="2116" SampleRate="44100" Comments="4-Floor / Breaks Kit (B-2)"
+           PlayCount="0" Rating="0" Location="file://localhost/C:/Users/djsets/Music/rekordbox/Sampler/GROOVE%20CIRCUIT/PRESET/4-Floor%20Breaks%20Kit/House4.wav"
+           Remixer="" Tonality="Abm" Label="" Mix="">
+      <TEMPO Inizio="0.000" Bpm="150.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="211980843" Name="Breaks 2" Artist="rekordbox" Composer=""
+           Album="GROOVE CIRCUIT FACTORY SAMPLES" Grouping="" Genre="Loop Samples"
+           Kind="WAV File" Size="3628990" TotalTime="13" DiscNumber="0"
+           TrackNumber="0" Year="0" AverageBpm="140.00" DateAdded="2026-08-06"
+           BitRate="2116" SampleRate="44100" Comments="4-Floor / Breaks Kit (B-3)"
+           PlayCount="0" Rating="0" Location="file://localhost/C:/Users/djsets/Music/rekordbox/Sampler/GROOVE%20CIRCUIT/PRESET/4-Floor%20Breaks%20Kit/Breaks2.wav"
+           Remixer="" Tonality="Am" Label="" Mix="">
+      <TEMPO Inizio="0.000" Bpm="140.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="224983559" Name="Breaks 3" Artist="rekordbox" Composer=""
+           Album="GROOVE CIRCUIT FACTORY SAMPLES" Grouping="" Genre="Loop Samples"
+           Kind="WAV File" Size="2099500" TotalTime="7" DiscNumber="0" TrackNumber="0"
+           Year="0" AverageBpm="121.00" DateAdded="2026-08-06" BitRate="2116"
+           SampleRate="44100" Comments="4-Floor / Breaks Kit (B-4)" PlayCount="0"
+           Rating="0" Location="file://localhost/C:/Users/djsets/Music/rekordbox/Sampler/GROOVE%20CIRCUIT/PRESET/4-Floor%20Breaks%20Kit/Breaks3.wav"
+           Remixer="" Tonality="Am" Label="" Mix="">
+      <TEMPO Inizio="0.000" Bpm="121.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="147337955" Name="001-samuel_moriero-impact_halloween_xxl_2025_full_set"
+           Artist="" Composer="" Album="" Grouping="" Genre="" Kind="MP3 File"
+           Size="89868884" TotalTime="5277" DiscNumber="0" TrackNumber="0"
+           Year="0" AverageBpm="160.00" DateAdded="2026-08-06" BitRate="224"
+           SampleRate="48000" Comments="" PlayCount="7" Rating="0" Location="file://localhost/~/git/techno_corpus/audio/001-samuel_moriero-impact_halloween_xxl_2025_full_set.mp3"
+           Remixer="" Tonality="A" Label="" Mix="">
+      <TEMPO Inizio="0.333" Bpm="160.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="212.972" Bpm="160.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="672.729" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="996.730" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="1428.737" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="2097.748" Bpm="159.96" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="2193.771" Bpm="159.96" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="2253.785" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="2685.796" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="3411.804" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="3479.312" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="4149.806" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="4301.302" Bpm="160.38" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="4435.981" Bpm="160.00" Metro="4/4" Battito="1"/>
+      <POSITION_MARK Name="01" Type="0" Start="3.708" Num="0" Red="255" Green="55"
+                     Blue="111"/>
+      <POSITION_MARK Name="02" Type="0" Start="201.708" Num="1" Red="69" Green="172"
+                     Blue="219"/>
+      <POSITION_MARK Name="03" Type="0" Start="288.722" Num="2" Red="125" Green="193"
+                     Blue="61"/>
+      <POSITION_MARK Name="04" Type="0" Start="345.722" Num="3" Red="170" Green="114"
+                     Blue="255"/>
+      <POSITION_MARK Name="05" Type="0" Start="425.222" Num="4" Red="48" Green="210"
+                     Blue="110"/>
+      <POSITION_MARK Name="07" Type="0" Start="636.722" Num="6" Red="48" Green="90"
+                     Blue="255"/>
+      <POSITION_MARK Name="06" Type="0" Start="527.222" Num="5" Red="224" Green="100"
+                     Blue="27"/>
+      <POSITION_MARK Name="" Type="0" Start="3.708" Num="-1"/>
+    </TRACK>
+  </COLLECTION>
+  <PLAYLISTS>
+    <NODE Type="0" Name="ROOT" Count="2">
+      <NODE Name="Moriero Halloween XXL" Type="1" KeyType="0" Entries="38">
+        <TRACK Key="147337955"/>
+        <TRACK Key="254904472"/>
+        <TRACK Key="105583838"/>
+        <TRACK Key="188355053"/>
+        <TRACK Key="32613464"/>
+        <TRACK Key="199116949"/>
+        <TRACK Key="239522107"/>
+        <TRACK Key="54183404"/>
+        <TRACK Key="226101770"/>
+        <TRACK Key="110260227"/>
+        <TRACK Key="62098175"/>
+        <TRACK Key="179182913"/>
+        <TRACK Key="142599289"/>
+        <TRACK Key="11337767"/>
+        <TRACK Key="187538240"/>
+        <TRACK Key="236972334"/>
+        <TRACK Key="233924243"/>
+        <TRACK Key="146418138"/>
+        <TRACK Key="59022562"/>
+        <TRACK Key="118947040"/>
+        <TRACK Key="217442237"/>
+        <TRACK Key="5456129"/>
+        <TRACK Key="243898379"/>
+        <TRACK Key="195524131"/>
+        <TRACK Key="172868454"/>
+        <TRACK Key="36271562"/>
+        <TRACK Key="177027011"/>
+        <TRACK Key="203719783"/>
+        <TRACK Key="157738424"/>
+        <TRACK Key="171470912"/>
+        <TRACK Key="207601557"/>
+        <TRACK Key="124827937"/>
+        <TRACK Key="72283013"/>
+        <TRACK Key="259219611"/>
+        <TRACK Key="227729479"/>
+        <TRACK Key="208798134"/>
+        <TRACK Key="266705391"/>
+        <TRACK Key="2000377"/>
+      </NODE>
+      <NODE Name="CUE-Analyse Wiedergabeliste" Type="1" KeyType="0" Entries="0"/>
+    </NODE>
+  </PLAYLISTS>
+</DJ_PLAYLISTS>
