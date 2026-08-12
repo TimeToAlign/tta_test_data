@@ -7,7 +7,7 @@
            Album="No Way" Grouping="" Genre="" Kind="M4A File" Size="11380935"
            TotalTime="279" DiscNumber="1" TrackNumber="2" Year="2025" AverageBpm="160.00"
            DateAdded="2025-12-16" BitRate="320" SampleRate="44100" Comments="hinterer "
-           PlayCount="4" Rating="255" Location="file://localhost/C:/Users/hentschel/Cloud%20Option%20DJ%20team%20Dropbox/Doctor%20Lasor/Vortek%27s/Ao%20C%c3%a9u.m4a"
+           PlayCount="4" Rating="255" Location="file://localhost/~/Music/Vortek%27s/Ao%20C%c3%a9u.m4a"
            Remixer="" Tonality="F#m" Label="" Mix="">
       <TEMPO Inizio="0.092" Bpm="160.00" Metro="4/4" Battito="1"/>
       <POSITION_MARK Name="" Type="0" Start="72.092" Num="3" Red="170" Green="114"
@@ -31,7 +31,7 @@
            Album="Bye Bye" Grouping="" Genre="" Kind="M4A File" Size="9581706"
            TotalTime="294" DiscNumber="1" TrackNumber="1" Year="2025" AverageBpm="160.00"
            DateAdded="2025-11-12" BitRate="256" SampleRate="44100" Comments=""
-           PlayCount="0" Rating="255" Location="file://localhost/C:/Users/hentschel/Cloud%20Option%20DJ%20team%20Dropbox/Doctor%20Lasor/Luciid/Bye%20Bye.m4a"
+           PlayCount="0" Rating="255" Location="file://localhost/~/Music/Luciid/Bye%20Bye.m4a"
            Remixer="" Tonality="Bbm" Label="" Mix="">
       <TEMPO Inizio="0.035" Bpm="160.00" Metro="4/4" Battito="1"/>
       <POSITION_MARK Name="" Type="0" Start="12.035" Num="1" Red="69" Green="172"
@@ -57,7 +57,7 @@
            Album="Bass Kick" Grouping="" Genre="" Kind="MP3 File" Size="9340999"
            TotalTime="231" DiscNumber="1" TrackNumber="1" Year="2025" AverageBpm="160.00"
            DateAdded="2026-01-30" BitRate="320" SampleRate="44100" Comments=""
-           PlayCount="0" Rating="0" Location="file://localhost/C:/Users/hentschel/Cloud%20Option%20DJ%20team%20Dropbox/Doctor%20Lasor/Samuel%20Moriero/Bass%20Kick.mp3"
+           PlayCount="0" Rating="0" Location="file://localhost/~/Music/Samuel%20Moriero/Bass%20Kick.mp3"
            Remixer="" Tonality="Gm" Label="" Mix="">
       <TEMPO Inizio="0.061" Bpm="160.00" Metro="4/4" Battito="1"/>
       <POSITION_MARK Name="1.1Bars" Type="0" Start="0.061" Num="0" Red="255" Green="55"
