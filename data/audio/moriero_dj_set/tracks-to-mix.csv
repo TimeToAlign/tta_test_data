@@ -1,82 +1,84 @@
 track,track_start_bar,mix_start_bar,track_end_bar,mix_end_bar,track_loop,analysis
-01. See Me Coming,1,1,89,89,,
-01. See Me Coming,121,89,166,134,,"at the end of the first core: skips the breakdown and the additional buildup, right to the part that repeats the first buildup"
-02. Tonight (Samuel Moriero Remix),17,133,77,193,,"overlaps previous track by one bar, enters with 1-bar anacrusis"
-03. WATCH OUT,23,191,61,229,,"overlaps previous track by two bars, enters with 2-bar anacrusis"
-04. ID,,229,,283,,
-05. HUMBLE (Samuel Moriero REMIX),8,282,41,315,,"overlaps previous track by one bar, enters with 1-bar anacrusis"
-05. HUMBLE (Samuel Moriero REMIX),109,315,145,351,,"Skips 68 bars, likely from m. 41 (not from 33 because in the mix there are lyrics which 101ff. don't have; probably not from 45 because in the mix comes the riser that leads into m. 117) "
-06. ID,,350,,423,,"overlaps previous track by one bar, enters with 1-bar anacrusis"
-07. People Stomping,1,423,65,487,,
-07. People Stomping,73,487,117,531,,skips the 8-bar breakdown
-08. F THE POLICE,122,530,133,541,,"overlaps previous track by one bar, enters with 1-bar anacrusis; the mix itself has a slightly different variant of the ending that the track comes in with"
-08. F THE POLICE,1,541,,,,"after the ending, the track starts from the beginning"
-09. Rodeo,13,663,29,679,,
-09. Rodeo,37,679,85,727,,skips 8 bars
-09. Rodeo,125,727,153,755,,
-09. Rodeo,177,755,185,763,,
-09. Rodeo,,763,,764,,mix adds one bar with added terminal gesture (single downbeat)
-10. The Sound,1,764,64,827,,
-10. The Sound,64,827,65,839,12,
-11. LIKE ME,,838,,841,,mix adds three bars of an anacrustic gesture (1+2) using the new songs motto
-11. LIKE ME,9,841,125,957,,
-11. LIKE ME,,957,,965,,mix adds an 8-bar outro
-12. PRESSURE,39,963,105,1029,,"overlaps previous outro by two bars, enters with 2-bar anacrusis"
-12. PRESSURE,105,1029,113,1037,,"these last 8 bars of the track are fading out, this is mainly to show that phrases are perfectly aligned"
-13. TURN IT UP!,52,1028,61,1037,,"overlaps previous track by one bar, enters with 1-bar anacrusis"
-13. TURN IT UP!,9,1037,61,1089,,
-13. TURN IT UP!,69,1089,101,1121,,skips 8 bars
-13. TURN IT UP!,53,1121,61,1137,2,"loop fades out; hypermetrical anacrusis (""the 8"") replaced by ""Tunnel Vision"" motto"
-14. Tunnel Vision - Junkie Kid Remix,,1128,,1129,,"the ""4"" of the subsequent loop as hypermetrical anacrusis"
-14. Tunnel Vision - Junkie Kid Remix,,1129,,1137,,2x 4-bar loop fabricated from the intro and the core's beat
-14. Tunnel Vision - Junkie Kid Remix,,1137,,1141,,fabricated spherical breakdown/transition welcoming the intro
-14. Tunnel Vision - Junkie Kid Remix,1,1141,73,1213,,
-14. Tunnel Vision - Junkie Kid Remix,65,1213,73,1221,,maybe by looping the last 8 bars of the previous segment
-15. EMERGENCY,65,1221,145,1301,,
-16. ID,,1299,,1397,,"overlaps previous track by two bars, enters with 2-bar anacrusis"
-17. ID,,1396,,1501,,"overlaps previous track by one bar, enters with 1-bar anacrusis; enters with the 9 bars preceding a breakdown (typical mixing technique)"
-18. Die,16,1500,33,1517,,"overlaps previous track by one bar, enters with 1-bar anacrusis"
-18. Die,81,1517,165,1601,,
-19b. Call You,32,1600,41,1609,,"overlaps previous track by one bar, enters with 1-bar anacrusis; these 9 bars are equivalent to mm. 32-41, but in a more generic variant (e.g., without the spoken motto)"
-19a. Dying For You,65,1609,73,1617,,
-19a. Dying For You,89,1617,117,1645,,skips the singing part to go right to the anthem
-19b. Call You,88,1644,137,1693,,"overlaps previous track by one bar, enters with 1-bar anacrusis"
-20. I SET FIRE,41,1692,71,1722,,"overlaps previous track by one bar, enters with 1-bar anacrusis"
-20. I SET FIRE,71,1724,136,1789,,set introduces two empty bars
-21. The Chrononaut,55,1788,63,1796,,"overlaps previous track by one bar, enters with 1-bar anacrusis; this is fabricated based on the indicated segment by adding hihat and using it as connector (""intro/outro"") both before and after the main part"
-21. The Chrononaut,71,1796,129,1856,,
-21. The Chrononaut,55,1856,64,1865,,same fabricated segment
-22. GO CRAZY,40,1864,49,1873,,"overlaps previous track by one bar, enters with 1-bar anacrusis"
-22. GO CRAZY,1,1873,49,1921,,
-23. Bass Kick,53,1920,54,1921,,"least elaborate version of the ""cadence"" (ending first core before the buildup)"
-23. Bass Kick,138,1921,144,1927,,outro serves as intro
-23. Bass Kick,36,1927,38,1929,,"percussion of the 2-bar cadence leading into the first core's climax but with ""let the bass kick"" motto (instead of, ""use a different kick"" from the original)"
-23. Bass Kick,2,1929,54,1981,,
-23. Bass Kick,78,1981,146,2049,,last eight bars fade out
-24. PUMP THIS BASS,18,2041,142,1265,,"fades in over the 8 last bars of the previous track; the beginning of the segment comes with the plain beat, without the vocals; last 8 bars fade out"
-25. Woops (Anderex Edit),69,2157,75,2163,,just the beat
-25. Woops (Anderex Edit),67,2163,69,2165,,just the rising pitch
-25. Woops (Anderex Edit),1,2165,97,2261,,
-26. Explosive,31,2261,35,2265,,
-25. Woops (Anderex Edit),101,2265,106,2270,,
-26. Explosive,39,2269,82,2312,,ending fades out (last bar would be terminal downbeat only)
-27. Back Now,128,2310,137,2319,,1-bar anacrusis
-27. Back Now,1,2319,137,2455,,last eight bars fade out
-28. Fkn Raw,47,2447,51,2455,2,material newly assembled from these four bars; last two bars have vocal motto
-28. Fkn Raw,1,2455,115,2569,,last eight bars fade out
-29. HEROINE - Samuel Moriero Remix,9,2561,97,2649,,fades in over the 8 last bars of the previous track;
-30. Hard Beat (Revelation Bootleg),2,2649,117,2764,,
-31. Fuck U 2025 - Kruelty Remix,1,2761,58,2818,,track starts with a 1-bar hypermetrical anacrusis
-32. GUCCI BAG - Revelation Live Edit,37,2817,61,2841,,1-bar anacrusis; last three bars fade out
-32. GUCCI BAG - Revelation Live Edit,14,2838,38,2862,,
-32. GUCCI BAG - Revelation Live Edit,72,2862,76,2866,,
-32. GUCCI BAG - Revelation Live Edit,76,2866,77,2878,12,loop fades out
-33. ANNIHILATE,5,2866,112,2973,,first four bars fade in over the loop
+01. See Me Coming,1,3,89,91,,
+01. See Me Coming,121,91,166,136,,"at the end of the first core: skips the breakdown and the additional buildup, right to the part that repeats the first buildup"
+02. Tonight (Samuel Moriero Remix),17,135,77,195,,"overlaps previous track by one bar, enters with 1-bar anacrusis"
+03. WATCH OUT,23,193,61,231,,"overlaps previous track by two bars, enters with 2-bar anacrusis"
+04. ID,,231,,285,,
+05. HUMBLE (Samuel Moriero REMIX),8,284,41,317,,"overlaps previous track by one bar, enters with 1-bar anacrusis"
+05. HUMBLE (Samuel Moriero REMIX),109,317,145,353,,"Skips 68 bars, likely from m. 41 (not from 33 because in the mix there are lyrics which 101ff. don't have; probably not from 45 because in the mix comes the riser that leads into m. 117) "
+06. ID,,352,,425,,"overlaps previous track by one bar, enters with 1-bar anacrusis"
+07. People Stomping,1,425,65,489,,
+07. People Stomping,73,489,117,533,,skips the 8-bar breakdown
+08. F THE POLICE,122,532,133,543,,"overlaps previous track by one bar, enters with 1-bar anacrusis; the mix itself has a slightly different variant of the ending that the track comes in with"
+08. F THE POLICE,1,543,130,672,,"after the ending, the track starts from the beginning; last seven bars fade out"
+09. Rodeo,13,665,29,681,,
+09. Rodeo,37,681,85,729,,skips 8 bars
+09. Rodeo,125,729,153,757,,
+09. Rodeo,177,757,185,765,,
+09. Rodeo,,765,,766,,mix adds one bar with added terminal gesture (single downbeat)
+10. The Sound,1,766,64,829,,
+10. The Sound,64,829,65,841,12,
+11. LIKE ME,,840,,843,,mix adds three bars of an anacrustic gesture (1+2) using the new songs motto
+11. LIKE ME,9,843,125,959,,
+11. LIKE ME,,959,,967,,mix adds an 8-bar outro
+12. PRESSURE,39,965,105,1031,,"overlaps previous outro by two bars, enters with 2-bar anacrusis"
+12. PRESSURE,105,1031,113,1039,,"these last 8 bars of the track are fading out, this is mainly to show that phrases are perfectly aligned"
+13. TURN IT UP!,52,1030,61,1039,,"overlaps previous track by one bar, enters with 1-bar anacrusis"
+13. TURN IT UP!,9,1039,61,1091,,
+13. TURN IT UP!,69,1091,101,1123,,skips 8 bars
+13. TURN IT UP!,53,1123,61,1139,2,"loop fades out; hypermetrical anacrusis (""the 8"") replaced by ""Tunnel Vision"" motto"
+14. Tunnel Vision - Junkie Kid Remix,,1130,,1131,,"the ""4"" of the subsequent loop as hypermetrical anacrusis"
+14. Tunnel Vision - Junkie Kid Remix,,1131,,1139,,2x 4-bar loop fabricated from the intro and the core's beat
+14. Tunnel Vision - Junkie Kid Remix,,1139,,1143,,fabricated spherical breakdown/transition welcoming the intro
+14. Tunnel Vision - Junkie Kid Remix,1,1143,73,1215,,
+14. Tunnel Vision - Junkie Kid Remix,65,1215,73,1223,,maybe by looping the last 8 bars of the previous segment
+15. EMERGENCY,64,1222,145,1303,,"overlaps previous track by one bar, enters with 1-bar anacrusis"
+16. ID,,1301,,1399,,"overlaps previous track by two bars, enters with 2-bar anacrusis"
+17. ID,,1398,,1503,,"overlaps previous track by one bar, enters with 1-bar anacrusis; enters with the 9 bars preceding a breakdown (typical mixing technique)"
+18. Die,16,1502,33,1519,,"overlaps previous track by one bar, enters with 1-bar anacrusis"
+18. Die,81,1519,165,1603,,
+19b. Call You,32,1602,41,1611,,"overlaps previous track by one bar, enters with 1-bar anacrusis; these 9 bars are equivalent to mm. 32-41, but in a more generic variant (e.g., without the spoken motto)"
+19a. Dying For You,65,1611,73,1619,,
+19a. Dying For You,89,1619,117,1647,,skips the singing part to go right to the anthem
+19b. Call You,88,1646,137,1695,,"overlaps previous track by one bar, enters with 1-bar anacrusis"
+20. I SET FIRE,41,1694,71,1724,,"overlaps previous track by one bar, enters with 1-bar anacrusis"
+20. I SET FIRE,71,1726,136,1791,,set introduces two empty bars
+21. The Chrononaut,55,1790,63,1798,,"overlaps previous track by one bar, enters with 1-bar anacrusis; this is fabricated based on the indicated segment by adding hihat and using it as connector (""intro/outro"") both before and after the main part"
+21. The Chrononaut,71,1798,131,1858,,
+21. The Chrononaut,55,1858,64,1867,,same fabricated segment
+22. GO CRAZY,40,1866,49,1875,,"overlaps previous track by one bar, enters with 1-bar anacrusis"
+22. GO CRAZY,1,1875,49,1923,,
+23. Bass Kick,53,1922,54,1923,,"least elaborate version of the ""cadence"" (ending first core before the buildup)"
+23. Bass Kick,138,1923,144,1929,,outro serves as intro
+23. Bass Kick,36,1929,38,1931,,"percussion of the 2-bar cadence leading into the first core's climax but with ""let the bass kick"" motto (instead of, ""use a different kick"" from the original)"
+23. Bass Kick,2,1931,54,1983,,
+23. Bass Kick,78,1983,146,2051,,last eight bars fade out
+24. PUMP THIS BASS,18,2043,142,2167,,"fades in over the 8 last bars of the previous track; the beginning of the segment comes with the plain beat, without the vocals; last 8 bars fade out"
+25. Woops (Anderex Edit),69,2159,75,2165,,just the beat
+25. Woops (Anderex Edit),67,2165,69,2167,,just the rising pitch
+25. Woops (Anderex Edit),1,2167,97,2263,,
+26. Explosive,31,2263,35,2267,,
+25. Woops (Anderex Edit),101,2267,106,2272,,
+26. Explosive,39,2271,82,2314,,ending fades out (last bar would be terminal downbeat only)
+27. Back Now,128,2312,137,2321,,1-bar anacrusis
+27. Back Now,1,2321,137,2457,,last eight bars fade out
+28. Fkn Raw,47,2449,51,2457,2,material newly assembled from these four bars; last two bars have vocal motto
+28. Fkn Raw,1,2457,115,2571,,last eight bars fade out
+29. HEROINE - Samuel Moriero Remix,9,2563,97,2651,,fades in over the 8 last bars of the previous track;
+30. Hard Beat (Revelation Bootleg),2,2651,117,2766,,
+31. Fuck U 2025 - Kruelty Remix,1,2763,58,2820,,track starts with a 1-bar hypermetrical anacrusis
+32. GUCCI BAG - Revelation Live Edit,37,2819,61,2843,,1-bar anacrusis; last three bars fade out
+32. GUCCI BAG - Revelation Live Edit,14,2840,38,2864,,
+32. GUCCI BAG - Revelation Live Edit,72,2864,76,2868,,
+32. GUCCI BAG - Revelation Live Edit,76,2868,77,2880,12,loop fades out
+33. ANNIHILATE,5,2868,112,2975,,first four bars fade in over the loop
 34. BLOW IT UP,2,2967,3,2968,,jingle pt.2
-34. BLOW IT UP,,2971,,2972,,jingle pt.1
+34. BLOW IT UP,7,2971,8,2972,,jingle pt.1
 34. BLOW IT UP,2,2975,51,3024,,1-bar anacrusis (first bar = jingle pt.2)
-35. DANGER ZONE,16,3023,37,3044,,
-36. ID,,3044,,,,
+35. DANGER ZONE,16,3023,37,3044,,1-bar anacrusis
+36. ID,,3044,,3073,,last seven bars fade out
+37. Annihilatiøn,55,3066,59,3070,,"Hypothesis that the beat from m. was combined with the vocals from mm.; the combination was played for 7 bars, followed by the song’s motto from m. 16; the anacrustic kick at the end of the latter, as well as the chopped-up nature of this track’s analysis, support the hypothesis that Moriero is playing a custom edit (rather than using hot cues / pads)"
+37. Annihilatiøn,55,3070,58,3073,,
 37. Annihilatiøn,16,3073,17,3074,,1-bar motto before the intro (and before that some more vocals but barely audible)
 37. Annihilatiøn,1,3074,54,3127,,
 37. Annihilatiøn,71,3126,107,3162,,
@@ -84,12 +86,12 @@ track,track_start_bar,mix_start_bar,track_end_bar,mix_end_bar,track_loop,analysi
 37. Annihilatiøn,55,3162,59,3166,,
 37. Annihilatiøn,59,3166,60,3170,4,
 38. Gasoline,1,3162,89,3250,,fades in over the 8 last bars of the previous track;
-39. OVERTHROW,32,3248,33,3249,,
+39. OVERTHROW,31,3247,33,3249,,2-bar anacrusis
 39. OVERTHROW,29,3249,37,3257,,beat from here
 39. OVERTHROW,45,3249,53,3257,,melody from here
-39. OVERTHROW,53,3257,100,3304,,
+39. OVERTHROW,53,3257,99,3303,,
 39. OVERTHROW,107,3303,121,3317,,last four bars are just terminal downbeat + reverb
 40. Brace For Impact,20,3313,24,3317,,
-40. Brace For Impact,44,3317,76,3349,,"last two beats have an addition anacrustic ""Here we go"""
-40. Brace For Impact,92,3349,138,3395,,last two bars are just terminal downbeat + reverb
-41a. ID,,3393,,3511,,
+40. Brace For Impact,44,3317,76,3349,,
+40. Brace For Impact,91,3348,138,3395,,last two bars are just terminal downbeat + reverb
+41a. ID,,3393,,3513,,2-bar anacrusis
