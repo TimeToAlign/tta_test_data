@@ -13,6 +13,7 @@ data/
 ├── fixtures/               Synthetic fixtures (corrupt files, ATON, .lab)
 ├── hendrix/                TiLiA hierarchy timelines for the Watchtower genesis study
 ├── midi/                   Performance + score MIDI specimens
+├── mtd/                    Musical Theme Dataset sample (four themes, MTD's archive layout)
 ├── performance_precision/  Performance-precision benchmark inputs
 ├── score/                  Score corpora (Beethoven, Bruckner, Couperin, Rachmaninoff, Wagner, …)
 ├── supra/                  SUPRA piano-roll annotations + audio
