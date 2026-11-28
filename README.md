@@ -10,6 +10,7 @@ the main repository.
 data/
 ├── audio/                  Audio specimens for AudioLoader/BeatGrid examples
 ├── audiolabs_omr/          AudioLabs OMR JSON exports (Wagner WWV086)
+├── audiveris/              An Audiveris .omr book (Chaminade, Sérénade op. 29)
 ├── fixtures/               Synthetic fixtures (corrupt files, ATON, .lab)
 ├── hendrix/                TiLiA hierarchy timelines for the Watchtower genesis study
 ├── midi/                   Performance + score MIDI specimens
